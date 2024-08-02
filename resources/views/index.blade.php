@@ -33,19 +33,6 @@
 				</section>
 
 
-				<section class="section border-0 m-0 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="1200">
-					<div class="container">
-						<div class="row align-items-center justify-content-center">
-							<div class="col-sm-9 col-md-12 col-lg-7 text-center text-lg-end mb-4 mb-lg-0">
-								<h2 class="font-weight-bold text-color-primary text-7 line-height-1 mb-1 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="1700">Complete Auto Services and Body Shop</h2>
-								<p class="font-weight-bold text-4 mb-0 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="1900">Make An Appointment Today With Our Online Form</p>
-							</div>
-							<div class="col-lg-5 text-center text-lg-start ps-lg-4">
-								<a href="/book-appointment" class="btn btn-primary btn-outline custom-btn-border-radius font-weight-bold text-3 btn-px-5 btn-py-3 ms-lg-2 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="1500">MAKE AN APPOINTMENT</a>
-							</div>
-						</div>
-					</div>
-				</section>
 
 				<div class="container my-5 pt-md-4 pt-xl-0">
 					<div class="row align-items-center justify-content-center pb-4 mb-5">
