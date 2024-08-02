@@ -35,6 +35,7 @@
 				</section>
 
 
+				
 
 				<div class="container my-5 pt-md-4 pt-xl-0">
 					<div class="row align-items-center justify-content-center pb-4 mb-5">
@@ -55,7 +56,7 @@
 										<i class="icons icon-phone text-6 text-color-dark"></i>
 									</div>
 									<div class="feature-box-info line-height-2 ps-1">
-										<span class="d-block text-1 font-weight-semibold text-color-default">CALL US NOW  <i class="fa-brands fa-facebook-f"></i></span>
+										<span class="d-block text-1 font-weight-semibold text-color-default">CALL US NOW  </span>
 										<strong class="text-4-5"><a href="tel:{{$system_settings->phone}}" class="text-color-dark text-color-hover-primary text-decoration-none">{{$system_settings->phone}}</a></strong>
 									</div>
 								</div>
@@ -84,6 +85,13 @@
 							</div>
 						</div>
 					</div>
+				
+				</div>
+				<section class="section section-height-3 bg-grey  border-0 m-0">
+
+
+				<div class="container my-5 pt-md-4 pt-xl-0">
+					
 					<div class="row pb-2">
 						<div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
 							<a href="/pages/services" class="text-decoration-none">
@@ -120,6 +128,7 @@
 						</div>
 					</div>
 				</div>
+				</section>
 
 			
 
