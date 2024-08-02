@@ -3,7 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Appointments\AppointmentsController;
 use App\Http\Controllers\Api\Years\YearsController;
-use App\Http\Controllers\PagesController;
+use App\Http\Controllers\Pages\PagesController;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
