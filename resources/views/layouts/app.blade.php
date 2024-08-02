@@ -117,7 +117,11 @@
 										<nav class="header-nav-top">
 											<ul class="header-social-icons social-icons social-icons-clean social-icons-icon-gray social-icons-medium custom-social-icons-divider">
 												<li class="social-icons-facebook">
-													<a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fas fa-facebook-f"></i></a>
+													<a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="bi bi-facebook"></i>
+
+													
+
+												</a>
 												</li>
 												<li class="social-icons-twitter">
 													<a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-x-twitter"></i></a>

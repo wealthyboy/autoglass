@@ -64,7 +64,7 @@ class InformationController extends Table
 	public function update(Request $request, $id)
 	{
 
-		$page = Information::find($id);
+		$page = Page::find($id);
 
 		if ( $request->filled('parent_id') ) {
 

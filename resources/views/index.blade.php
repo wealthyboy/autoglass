@@ -55,7 +55,7 @@
 										<i class="icons icon-phone text-6 text-color-dark"></i>
 									</div>
 									<div class="feature-box-info line-height-2 ps-1">
-										<span class="d-block text-1 font-weight-semibold text-color-default">CALL US NOW</span>
+										<span class="d-block text-1 font-weight-semibold text-color-default">CALL US NOW  <i class="fa-brands fa-facebook-f"></i></span>
 										<strong class="text-4-5"><a href="tel:{{$system_settings->phone}}" class="text-color-dark text-color-hover-primary text-decoration-none">{{$system_settings->phone}}</a></strong>
 									</div>
 								</div>
