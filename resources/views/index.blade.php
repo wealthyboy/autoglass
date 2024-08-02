@@ -49,7 +49,7 @@
 							<p class="font-weight-light text-3-5 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">Over the past five years, We have dedicated ourselves to mastering the intricacies of the auto glass industry, gaining a wealth of experience that spans from hands-on technical skills to comprehensive business management. </p>
 							<p class="pb-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700"> Our journey in this field has been marked by continuous learning, excellence customer service, and adapting to technological advancements.</p>
 							<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
-								<a href="/book-appointment" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950">VIEW MORE</a>
+								<a href="/pages/about-us" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950">VIEW MORE</a>
 								<div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1200">
 									<div class="feature-box-icon bg-transparent">
 										<i class="icons icon-phone text-6 text-color-dark"></i>
