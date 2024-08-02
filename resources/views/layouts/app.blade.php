@@ -8,11 +8,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>{{ isset($page_title) ? $page_title .'   '.config('app.name') :  optional($system_settings)->meta_title  }}</title>
-   <meta property="og:title" content="{{ isset($seo['page_title']) ? $seo['page_title'] : optional($system_settings)->meta_title }}">
-   <meta name="description" content="{{ isset($seo['page_meta_description'])  ? $seo['page_meta_description'] : optional($system_settings)->meta_description }}">
-   <meta name="keywords" content="{{  isset($seo['meta_tag_keywords'])  ? $seo['meta_tag_keywords'] : optional($system_settings)->meta_tag_keywords }}" />
-   <link rel="canonical" href="{{ Config('app.url') }}">
-   <meta name="author" content="Autoglass">
+		<meta property="og:title" content="{{ isset($seo['page_title']) ? $seo['page_title'] : optional($system_settings)->meta_title }}">
+		<meta name="description" content="{{ isset($seo['page_meta_description'])  ? $seo['page_meta_description'] : optional($system_settings)->meta_description }}">
+		<meta name="keywords" content="{{  isset($seo['meta_tag_keywords'])  ? $seo['meta_tag_keywords'] : optional($system_settings)->meta_tag_keywords }}" />
+		<link rel="canonical" href="{{ Config('app.url') }}">
+		<meta name="author" content="Autoglass">
 
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -138,19 +138,17 @@
 								<div class="header-row justify-content-between">
 									<div class="header-logo z-index-2 col-lg-2 px-0">
 										<a href="/">
-											<img alt="Porto" width="220" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="84" src="/images/logo/Autoglass_logo2.png">
+											<img alt="Autoglass" width="220" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="84" src="/images/logo/Autoglass_logo2.png">
 										</a>
 									</div>
 									<div class="header-nav header-nav-links justify-content-end pe-lg-4 me-lg-3">
 										<div class="header-nav-main header-nav-main-arrows header-nav-main-dropdown-no-borders header-nav-main-effect-3 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
-													<li><a href="/" class="nav-link active">Home</a></li>
 													<li><a href="/book-appointment" class="nav-link">Book Appointment</a></li>
 												
 													<li><a href="/" class="nav-link">About</a></li>
 													<li><a href="/" class="nav-link">Services</a></li>
-													<li><a href="/" class="nav-link">Appointment</a></li>
 													<li><a href="/contact" class="nav-link">Contact</a></li>
 												</ul>
 											</nav>
@@ -191,7 +189,7 @@
 				<div class="col-md-12 text-center">
                 <div class="pull-center">
                     @foreach($footer_info as $info)
-                        <a  href="/pages/{{ $info->slug }}">
+                        <a class="font-weight-bold me-4 text-color-dark"  href="/pages/{{ $info->slug }}">
                             {{ Ucfirst($info->name) }}
                         </a>
                     @endforeach

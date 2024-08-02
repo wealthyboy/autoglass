@@ -56,7 +56,7 @@
 									</div>
 									<div class="feature-box-info line-height-2 ps-1">
 										<span class="d-block text-1 font-weight-semibold text-color-default">CALL US NOW</span>
-										<strong class="text-4-5"><a href="tel:+1234567890" class="text-color-dark text-color-hover-primary text-decoration-none">{{$system_settings->phone}}</a></strong>
+										<strong class="text-4-5"><a href="tel:{{$system_settings->phone}}" class="text-color-dark text-color-hover-primary text-decoration-none">{{$system_settings->phone}}</a></strong>
 									</div>
 								</div>
 							</div>
@@ -141,7 +141,7 @@
 										</div>
 										<div class="feature-box-info line-height-2 ps-1">
 											<span class="d-block text-1 font-weight-semibold text-color-light mb-1">CALL US NOW</span>
-											<strong class="text-4-5"><a href="tel:+1234567890" class="text-color-light text-decoration-none">{{$system_settings->phone}}</a></strong>
+											<strong class="text-4-5"><a href="tel:{{$system_settings->phone}}" class="text-color-light text-decoration-none">{{$system_settings->phone}}</a></strong>
 										</div>
 									</div>
 									<a href="demo-auto-services-appointment.html" class="btn btn-light btn-outline custom-btn-border-radius font-weight-bold text-color-light text-color-hover-dark bg-color-hover-light btn-px-5 btn-py-3">MAKE AN APPOINTMENT</a>
