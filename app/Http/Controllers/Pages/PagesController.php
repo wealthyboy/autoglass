@@ -10,9 +10,10 @@ class PagesController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function  index(Request $request, Information $information)
     {
-        //
+        $page_title = $information->name;
+        return view('pages.index', compact('information', 'page_title'));
     }
 
     /**
