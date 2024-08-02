@@ -66,7 +66,7 @@
 									</div>
 									<div class="feature-box-info line-height-2 ps-1">
 										<span class="d-block text-1 font-weight-semibold text-color-default">CALL US NOW</span>
-										<strong class="text-4-5"><a href="tel:+1234567890" class="text-color-dark text-color-hover-primary text-decoration-none">+123 4567 890</a></strong>
+										<strong class="text-4-5"><a href="tel:+1234567890" class="text-color-dark text-color-hover-primary text-decoration-none">{{$system_settings->phone}}</a></strong>
 									</div>
 								</div>
 							</div>
