@@ -147,9 +147,9 @@
 												<ul class="nav nav-pills" id="mainNav">
 													<li><a href="/book-appointment" class="nav-link">Book Appointment</a></li>
 												
-													<li><a href="/" class="nav-link">About</a></li>
+													<li><a href="/" class="nav-link">About Us</a></li>
 													<li><a href="/" class="nav-link">Services</a></li>
-													<li><a href="/contact" class="nav-link">Contact</a></li>
+													<li><a href="/contact" class="nav-link">What will it cost</a></li>
 												</ul>
 											</nav>
 										</div>
