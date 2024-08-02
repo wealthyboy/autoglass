@@ -11,10 +11,10 @@ class PagesController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function  index(Request $request, Page $Page)
+    public function  index(Request $request, Page $page)
     {
         $page_title = $page->name;
-        return view('pages.index', compact('Page', 'page_title'));
+        return view('pages.index', compact('page', 'page_title'));
     }
 
     /**
