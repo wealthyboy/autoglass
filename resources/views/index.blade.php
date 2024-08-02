@@ -123,8 +123,8 @@
 									<div class="custom-icon-style-1 mb-4">
 										<img width="50" src="img/demos/auto-services/icons/car-safe.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
 									</div>
-									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-4 px-xl-5 my-2">Car Mechanics You Can Trust</h3>
-									<p>Lorem ipsum dolor sit a met, consectetur adipiscing elit.</p>
+									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-4 px-xl-5 my-2">Professionalism</h3>
+									<p>Our technicians are highly trained and certified, ensuring expert installation and repairs.</p>
 								</div>
 							</a>
 						</div>
