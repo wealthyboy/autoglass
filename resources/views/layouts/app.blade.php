@@ -145,11 +145,11 @@
 										<div class="header-nav-main header-nav-main-arrows header-nav-main-dropdown-no-borders header-nav-main-effect-3 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
-													<li><a href="/book-appointment" class="nav-link">Book Appointment</a></li>
+													<li><a href="/book-appointment" class="nav-link font-weight-bold me-4 text-color-dark">Book Appointment</a></li>
 												
-													<li><a href="/pages/about-us" class="nav-link">About Us</a></li>
-													<li><a href="/pages/services" class="nav-link">Services</a></li>
-													<li><a href="/pages/what-will-it-cost" class="nav-link">What will it cost</a></li>
+													<li><a href="/pages/about-us" class="nav-link font-weight-bold me-4 text-color-dark">About Us</a></li>
+													<li><a href="/pages/services" class="nav-link font-weight-bold me-4 text-color-dark">Services</a></li>
+													<li><a href="/pages/what-will-it-cost" class="nav-link font-weight-bold me-4 text-color-dark">What will it cost</a></li>
 												</ul>
 											</nav>
 										</div>
