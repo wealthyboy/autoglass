@@ -38,13 +38,14 @@
 					<div class="row align-items-center justify-content-center pb-4 mb-5">
 						<div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
 							<div class="overflow-hidden">
-								<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">Twenty Years of Top Experience</h2>
+								<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">5 Years of Top Experience 
+								</h2>
 							</div>
 							<div class="custom-divider divider divider-primary divider-small my-3">
 								<hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700">
 							</div>
-							<p class="font-weight-light text-3-5 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
-							<p class="pb-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non.</p>
+							<p class="font-weight-light text-3-5 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">Over the past five years, We have dedicated ourselves to mastering the intricacies of the auto glass industry, gaining a wealth of experience that spans from hands-on technical skills to comprehensive business management. </p>
+							<p class="pb-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700"> Our journey in this field has been marked by continuous learning, excellence customer service, and adapting to technological advancements.</p>
 							<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
 								<a href="/book-appointment" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950">VIEW MORE</a>
 								<div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1200">
