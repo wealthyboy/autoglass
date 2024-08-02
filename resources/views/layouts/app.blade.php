@@ -161,7 +161,7 @@
 											</div>
 											<div class="header-extra-info-text line-height-2">
 												<span class="text-1 font-weight-semibold text-color-default">CALL US NOW</span>
-												<strong class="text-4"><a href="tel:+1234567890" class="text-color-hover-primary text-decoration-none">{{ $system_settings->phone }}</a></strong>
+												<strong class="text-4"><a href="tel:{{ $system_settings->phone }}" class="text-color-hover-primary text-decoration-none">{{ $system_settings->phone }}</a></strong>
 											</div>
 										</li>
 									</ul>
