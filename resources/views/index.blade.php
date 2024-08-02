@@ -59,7 +59,7 @@
 							<p class="font-weight-light text-3-5 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin.</p>
 							<p class="pb-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non. Integer aliquet ullamcorper dolor, quis sollicitudin. Suspendisse hendrerit vehicula leo, vel efficitur felis ultrices non.</p>
 							<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
-								<a href="demo-auto-services-about-us.html" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950">VIEW MORE</a>
+								<a href="/book-appointment" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950">VIEW MORE</a>
 								<div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1200">
 									<div class="feature-box-icon bg-transparent">
 										<i class="icons icon-phone text-6 text-color-dark"></i>
@@ -96,13 +96,13 @@
 					</div>
 					<div class="row pb-2">
 						<div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
-							<a href="demo-auto-services-services-detail.html" class="text-decoration-none">
+							<a href="/pages/services" class="text-decoration-none">
 								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="250" data-plugin-options="{'accY': -200}">
 									<div class="custom-icon-style-1 mb-4">
 										<img width="50" src="img/demos/auto-services/icons/checklist.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
 									</div>
-									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Complete Auto Body and Paint Shop</h3>
-									<p>Lorem ipsum dolor sit a met, consectetur adipiscing elit.</p>
+									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Mobile Services</h3>
+									<p>Our technicians come to your home, workplace, or any preferred location, saving you the time and trouble of visiting a shop.</p>
 								</div>
 							</a>
 						</div>
@@ -112,8 +112,8 @@
 									<div class="custom-icon-style-1 mb-4">
 										<img width="50" src="img/demos/auto-services/icons/wheel-disk.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
 									</div>
-									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-xl-5 my-2 mx-4">Free Diagnosis & Brake Checks</h3>
-									<p>Lorem ipsum dolor sit a met, consectetur adipiscing elit.</p>
+									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-xl-5 my-2 mx-4">Quality</h3>
+									<p>We only use premium materials such as OEM or its Equivalent and Advanced Adhesives to ensure Durability and Fit.</p>
 								</div>
 							</a>
 						</div>
