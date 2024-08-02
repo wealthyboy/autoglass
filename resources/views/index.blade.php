@@ -125,8 +125,10 @@
 					<div class="container">
 						<div class="row align-items-center">
 							<div class="col-lg-6 col-xl-7 text-center text-lg-start mb-4 mb-lg-0">
-								<h2 class="text-color-light font-weight-medium text-3-5 line-height-2 line-height-sm-1 ls-0 mb-2 mb-lg-2">LOOKING FOR HONEST AND RELIABLE SERVICES?</h2>
-								<h3 class="font-weight-bold text-color-light text-transform-none text-8 line-height-2 line-height-lg-1 mb-1">Best Mechanics Downtown Los Angeles CA</h3>
+								<h2 class="text-color-light font-weight-medium text-3-5 line-height-2 line-height-sm-1 ls-0 mb-2 mb-lg-2">Looking for Honest and Reliable Services?
+								</h2>
+								<h3 class="font-weight-bold text-color-light text-transform-none text-8 line-height-2 line-height-lg-1 mb-1">Best Auto Glass replacement and repair Experts in Lagos, Nigeria. 
+								</h3>
 								<p class="font-weight-bold text-color-light text-4 opacity-7 mb-0">Make An Appointment Today With Our Online Form</p>
 							</div>
 							<div class="col-lg-6 col-xl-5">
