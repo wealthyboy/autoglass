@@ -4,16 +4,17 @@ namespace App\Http\Controllers\Pages;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Page;
 
 class PagesController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function  index(Request $request, Information $information)
+    public function  index(Request $request, Page $Page)
     {
-        $page_title = $information->name;
-        return view('pages.index', compact('information', 'page_title'));
+        $page_title = $page->name;
+        return view('pages.index', compact('Page', 'page_title'));
     }
 
     /**

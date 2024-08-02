@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Appointments\AppointmentsController;
 use App\Http\Controllers\Api\Years\YearsController;
+use App\Http\Controllers\PagesController;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -24,7 +25,7 @@ Route::get('/api/years', [YearsController::class, 'index']);
 Route::get('/make-model-year',  [AppointmentsController::class, 'makeModelYearSearch']);
 Route::post('/api/save-selection', [AppointmentsController::class, 'saveSelection']);
 Route::post('/set-category', [AppointmentsController::class, 'setCategory']);
-Route::get('pages/{information}', 'Pages\PagesController@index');
+Route::get('pages/{information}', [PagesController::class, 'index']);
 
 
 
