@@ -101,7 +101,9 @@
 										<div class="header-nav-top">
 											<ul class="nav nav-pills position-relative">
 												<li class="nav-item d-none d-sm-block">
-													<span class="d-flex align-items-center font-weight-medium ws-nowrap text-3 ps-0"><a href="/cdn-cgi/l/email-protection#dbabb4a9afb49bbfb4b6bab2b5f5b8b4b6" class="text-decoration-none text-color-dark text-color-hover-primary"><i class="icons icon-envelope font-weight-bold position-relative text-4 top-3 me-1"></i> <span class="__cf_email__" data-cfemail="9cecf3eee8f3dcf8f3f1fdf5f2b2fff3f1">[email&#160;protected]</span></a></span>
+													<span class="d-flex align-items-center font-weight-medium ws-nowrap text-3 ps-0"><a href="/cdn-cgi/l/email-protection#dbabb4a9afb49bbfb4b6bab2b5f5b8b4b6" class="text-decoration-none text-color-dark text-color-hover-primary"><i class="icons icon-envelope font-weight-bold position-relative text-4 top-3 me-1"></i> 
+													<span >{{ $system_settings->email }}</span>
+												</a></span>
 												</li>
 												<li class="nav-item nav-item-left-border nav-item-left-border-remove nav-item-left-border-sm-show">
 													<span class="d-flex align-items-center font-weight-medium text-color-dark ws-nowrap text-3"><i class="icons icon-clock font-weight-bold position-relative text-3 top-1 me-2"></i> Mon - Sat 9:00am - 6:00pm</span>
@@ -136,7 +138,7 @@
 								<div class="header-row justify-content-between">
 									<div class="header-logo z-index-2 col-lg-2 px-0">
 										<a href="/">
-											<img alt="Porto" width="220" height="58" data-sticky-width="82" data-sticky-height="40" data-sticky-top="84" src="/images/logo/Autoglass_logo2.png">
+											<img alt="Porto" width="220" height="48" data-sticky-width="82" data-sticky-height="40" data-sticky-top="84" src="/images/logo/Autoglass_logo2.png">
 										</a>
 									</div>
 									<div class="header-nav header-nav-links justify-content-end pe-lg-4 me-lg-3">
