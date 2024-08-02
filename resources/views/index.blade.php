@@ -18,9 +18,12 @@
 						<div class="row mb-5 p-relative z-index-1">
 							<div class="col-md-8 col-lg-6 col-xl-5">
 								<div class="overflow-hidden mb-1">
-									<h2 class="font-weight-bold text-color-grey text-4-5 line-height-2 line-height-sm-7 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="800">Book your Autoglass Replacement or Repairs Today!</h2>
+									<h2 class="font-weight-bold text-color-grey  text-8 line-height-2 line-height-sm-7 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="800">Book your Autoglass Replacement or Repairs Today!</h2>
 								</div>
-								<h1 class="text-color-dark font-weight-bold text-8 pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">A damaged windscreen compromises the structural integrity of your vehicle putting your life at risk.</h1>
+								<h2 class="text-color-dark font-weight-bold text-4-5 pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
+
+A damaged windscreen could result in failing your road worthiness test. Book your appointment with us today to avoid disappointment.
+								</h1>
 								<a href="/book-appointment" class="btn btn-primary custom-btn-border-radius custom-btn-arrow-effect-1 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">
 									GET STARTED 
 									<svg class="ms-2" version="1.1" viewBox="0 0 15.698 8.706" width="17" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
