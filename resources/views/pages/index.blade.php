@@ -11,11 +11,11 @@
                         <div class="container d-flex justify-content-center">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/"><i class="icon-home"></i></a></li>
-                                <li class="breadcrumb-item active" aria-current="page">{{ $information->name }}</li>
+                                <li class="breadcrumb-item active" aria-current="page">{{ $page->name }}</li>
                             </ol>
                         </div>
                     </nav>
-                    <h1 class="breadcrumb-title">{{ $information->name }}</h1>
+                    <h1 class="breadcrumb-title">{{ $page->name }}</h1>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                 </div>
 
                 @else
-                <p><?php echo  html_entity_decode($information->description);  ?></p>
+                <p><?php echo  html_entity_decode($page->description);  ?></p>
                 @endif
             </div>
             <div class="margin-top-35"></div>
