@@ -147,7 +147,7 @@
 								</h2>
 								<h3 class="font-weight-bold text-color-light text-transform-none text-8 line-height-2 line-height-lg-1 mb-1">Best Auto Glass replacement and repair Experts in Lagos, Nigeria. 
 								</h3>
-								<p class="font-weight-bold text-color-light text-4 opacity-7 mb-0">Make An Appointment Today With Our Platform</p>
+								<p class="font-weight-bold text-color-light text-4 opacity-7 mb-0">Book An Appointment Today With Our Platform</p>
 							</div>
 							<div class="col-lg-6 col-xl-5">
 								<div class="d-flex flex-column flex-lg-row align-items-center justify-content-between">
