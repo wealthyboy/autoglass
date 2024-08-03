@@ -88,7 +88,7 @@
 										</svg>
 									</div>
 									<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-3 px-xl-5 my-2">Mobile Services</h3>
-									<p>Our technicians come to your home, workplace, or any preferred location, saving you the time and trouble of visiting a shop.  <i class="bi bi-facebook"></i>  <i class="icons icon-social-facebook"></i></p>
+									<p>Our technicians come to your home, workplace, or any preferred location, saving you the time and trouble of visiting a shop. </p>
 								</div>
 							</a>
 						</div>
