@@ -5270,7 +5270,7 @@ window.theme.fn = {
                 offset: 150,
                 buttonClass: "scroll-to-top",
                 buttonAriaLabel: "Scroll To Top",
-                iconClass: "fa fa-chevron-up",
+                iconClass: "icons icon-arrow-up",
                 delay: 1000,
                 visibleMobile: false,
                 label: false,
