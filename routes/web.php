@@ -25,7 +25,7 @@ Route::get('/api/years', [YearsController::class, 'index']);
 Route::get('/make-model-year',  [AppointmentsController::class, 'makeModelYearSearch']);
 Route::post('/api/save-selection', [AppointmentsController::class, 'saveSelection']);
 Route::post('/set-category', [AppointmentsController::class, 'setCategory']);
-Route::get('pages/{information}', [PagesController::class, 'index']);
+Route::get('pages/{page}', [PagesController::class, 'index']);
 
 
 
