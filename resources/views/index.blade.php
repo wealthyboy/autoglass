@@ -80,7 +80,7 @@
 					
 					<div class="row pb-2">
 						<div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
-							<a href="/pages/services" class="text-decoration-none">
+							<a  class="text-decoration-none">
 								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="250" data-plugin-options="{'accY': -200}">
 									<div class="custom-icon-style-1 mb-4">
 										<svg xmlns="http://www.w3.org/2000/svg"   width="40" height="40" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
@@ -93,7 +93,7 @@
 							</a>
 						</div>
 						<div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
-							<a href="demo-auto-services-services-detail.html" class="text-decoration-none">
+							<a  class="text-decoration-none">
 								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'accY': -200}">
 									<div class="custom-icon-style-1 mb-4">
 									<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
@@ -107,7 +107,7 @@
 							</a>
 						</div>
 						<div class="col-lg-4 text-center px-lg-5">
-							<a href="demo-auto-services-services-detail.html" class="text-decoration-none">
+							<a  class="text-decoration-none">
 								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="750" data-plugin-options="{'accY': -200}">
 									<div class="custom-icon-style-1 mb-4">
 									    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
