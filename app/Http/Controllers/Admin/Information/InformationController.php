@@ -32,6 +32,8 @@ class InformationController extends Table
 	public function  index(Request $request)
 	{
 		$pages = Page::parents()->get();
+
+		dd(Page::all());
 		return view('admin.information.index', compact('pages'));
 	}
 
