@@ -13,7 +13,7 @@ class Page extends Model
     use HasFactory, HasChildren;
 
 
-    protected $fillable = ['user_id', 'title', 'description'];
+    protected $fillable = ['user_id', 'title', 'description', 'parent_id'];
 
     public $folder = 'blog';
 

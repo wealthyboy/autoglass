@@ -33,7 +33,10 @@ class InformationController extends Table
 	{
 		$pages = Page::parents()->get();
 
-		dd(Page::all());
+		Page::where('name', 'About Us')->first()->update([
+			'parent_id' => null
+		]);
+
 		return view('admin.information.index', compact('pages'));
 	}
 
