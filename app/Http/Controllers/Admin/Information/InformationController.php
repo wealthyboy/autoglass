@@ -101,7 +101,8 @@ class InformationController extends Table
 
 
 	public function  edit(Request $request, $id)
-	{
+	{   
+		dd(true);
 		//User::canTakeAction(User::canUpdate);
 		$information = Page::find($id);
 		$pages = Page::get();
