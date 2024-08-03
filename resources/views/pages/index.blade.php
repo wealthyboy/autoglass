@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="breadcrumb no-banner  justify-content-center">
+<section class="breadcrumb no-banner   bg-grey  justify-content-center">
     <div class="breadcrumb-content">
         <div class="container-fluid">
             <div class="row">
