@@ -157,6 +157,17 @@
 													<li><a href="/pages/about-us" class="nav-link font-weight-bold me-4 text-color-dark">About Us</a></li>
 													<li><a href="/pages/services" class="nav-link font-weight-bold me-4 text-color-dark">Services</a></li>
 													<li><a href="/pages/what-will-it-cost" class="nav-link font-weight-bold me-4 text-color-dark">What will it cost</a></li>
+													
+													<li class="d-block d-sm-none">
+														<a href="" class="nav-link font-weight-bold me-4 text-color-dark">
+														<div class="header-extra-info-text line-height-2">
+															<span class="text-1 font-weight-semibold text-color-default">CALL US NOW</span>
+															<strong class="text-4"><a href="tel:{{ $system_settings->phone }}" class="text-color-hover-primary text-decoration-none">{{ $system_settings->phone }}</a></strong>
+														</div>
+														</a>
+														
+													</li>
+
 												</ul>
 											</nav>
 										</div>
