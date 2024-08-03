@@ -191,7 +191,7 @@
 
 			
 
-			<footer id="footer" class="border-0 mt-0">
+			<footer id="footer" class=" mt-0">
 				<div class="container">
 				<div class="row ">
 			@foreach($footer_info as $info)
@@ -218,12 +218,12 @@
              </div><!-- End .row -->
 				</div>
 			
-				<div class="footer-copyright bg-light py-4">
+				<div id="footer" class="foot text-white  ">
 				
 					<div class="container py-2">
 						<div class="row">
 							<div class="col">
-								<p class="text-center text-3 mb-0">{{ config('app.name') }} Services © 2024. All Rights Reserved.</p>
+								<p class="text-center  text-white  text-3 mb-0">{{ config('app.name') }} Services © 2024. All Rights Reserved.</p>
 							</div>
 						</div>
 					</div>
