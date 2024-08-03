@@ -213,42 +213,4 @@ export default {
 .nav-link.active {
     font-weight: bold;
 }
-
-.timeline {
-    border-left: 2px solid #ddd;
-    padding-left: 1rem;
-}
-
-.timeline-step {
-    position: relative;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-}
-
-.timeline-step::before {
-    content: "";
-    position: absolute;
-    left: -1rem;
-    top: 0.5rem;
-    width: 0.5rem;
-    height: 0.5rem;
-    background-color: #ddd;
-    border-radius: 50%;
-}
-
-.timeline-step.active::before {
-    background-color: #007bff;
-}
-
-.timeline-step.active::after {
-    content: "";
-    position: absolute;
-    left: -1rem;
-    top: 0.5rem;
-    width: 0;
-    height: 0;
-    border-left: 0.5rem solid transparent;
-    border-right: 0.5rem solid transparent;
-    border-top: 0.5rem solid #007bff;
-}
 </style>
