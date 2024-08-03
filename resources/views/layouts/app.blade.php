@@ -111,7 +111,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="header-column justify-content-end col-auto px-0 d-none d-md-flex">
+								<div class="header-column justify-content-end col-auto px-0 ">
 									<div class="header-row">
 										<nav class="header-nav-top">
 											<ul class="header-social-icons social-icons social-icons-clean social-icons-icon-gray social-icons-medium custom-social-icons-divider">
