@@ -14597,9 +14597,9 @@ html.boxed .slider-container {
 .social-icons.social-icons-transparent li a {
     background: 0 0;
 }
-.social-icons.social-icons-icon-gray li a {
+/* .social-icons.social-icons-icon-gray li a {
     color: var(--default) !important;
-}
+} */
 .social-icons.social-icons-icon-gray li:hover a {
     color: var(--light) !important;
 }

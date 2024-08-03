@@ -101,7 +101,7 @@
                                     @click="prevStep"
                                     :disabled="currentStep === 0"
                                 >
-                                    Previous
+                                    Previous <i class="bi bi-facebook"></i>
                                 </button>
                                 <button
                                     class="btn btn-primary"
