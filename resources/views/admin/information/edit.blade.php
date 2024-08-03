@@ -14,7 +14,7 @@
          <div class="card-body pt-0">
             <form action="{{ route('pages.update',['page' => $information->id]) }}" method="post" enctype="multipart/form-data" id="form-category">
                @csrf
-               @method('PATCH')
+               @method('PATCH')  
                <div class="row">
                   <div class="col-sm-12 col-12">
                      <div class="input-group input-group-outline">

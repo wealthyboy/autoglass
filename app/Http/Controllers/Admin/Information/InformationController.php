@@ -103,8 +103,8 @@ class InformationController extends Table
 	public function  edit(Request $request, $id)
 	{   
 		$information = Page::find($id);
-		$pages = Page::get();
-
-		return view('admin.information.index', compact('pages'));
+		$pages = null;
+         
+		return view('admin.information.edit', compact('pages'));
 	}
 }
