@@ -189,19 +189,37 @@
 
 			</div> 
 
+			
+
 			<footer id="footer" class="border-0 mt-0">
-				<hr class="bg-light opacity-2 my-0">
-				
+				<div class="container">
+				<div class="row ">
+			@foreach($footer_info as $info)
+			<div class="col-sm-6 col-6 col-lg-6 mt-3">
+				<div class="widget">
+					<h2 class="widget-title text-white mb-0 font-weight-bold ">{{ Ucfirst($info->name) }}</h2>
+					@if($info->children->count())
+					<ul class="links text-secondry list-unstyled  text-white">
+						@foreach($info->children as $info)
+						<li class="py-1  text-white mb-0">
+							<a class=" text-white font-weight-bold " href="{{ $info->c_link }}">
+								{{ $info->name }}
+							</a>
+						</li>
+						@endforeach
+					</ul>
+					@endif
+
+				</div><!-- End .widget -->
+			</div><!-- End .col-sm-6 -->
+			@endforeach
+
+
+             </div><!-- End .row -->
+				</div>
+			
 				<div class="footer-copyright bg-light py-4">
-				<div class="col-md-12 text-center">
-                <div class="pull-center">
-                    @foreach($footer_info as $info)
-                        <a class="font-weight-bold me-4 text-color-dark"  href="/pages/{{ $info->slug }}">
-                            {{ Ucfirst($info->name) }}
-                        </a>
-                    @endforeach
-</div>
-            </div>
+				
 					<div class="container py-2">
 						<div class="row">
 							<div class="col">
