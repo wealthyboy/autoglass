@@ -59,6 +59,7 @@
                                 class="img-fluid parent-image"
                             />
                         </div>
+                        {{ child.name }}
                     </div>
                 </div>
             </div>
