@@ -3,7 +3,9 @@
         <div class="row">
             <div class="d-flex justify-content-between">
                 <h3 class="ne-desktop">
-                    <span class="fw-700">Select your car</span>
+                    <span class="fw-700 font-weight-bold text-2 text-black"
+                        >Select your car</span
+                    >
                 </h3>
             </div>
             <!-- Year Select -->
@@ -92,7 +94,9 @@
                         height="25"
                         src="/images/utils/tick-25.png"
                     />
-                    <span class="fw-600 fw-md-700 bold">Good news!</span>
+                    <span class="fw-600 fw-md-700 bold">
+                        <strong> Good news! </strong>
+                    </span>
                     <span> We should be able to fix your </span>
                 </p>
                 <div class="col-12 mx-2">
@@ -108,11 +112,13 @@
                     class="help-info"
                     src="/images/utils/info-30.png"
                     alt="helpinfo"
-                    width="30"
-                    height="30"
+                    width="20"
+                    height="20"
                 />
                 <div class="ne-help-panel-content">
-                    <h4>Why are we asking?</h4>
+                    <h4 class="font-weight-bold text-4 ml-2">
+                        Why are we asking?
+                    </h4>
                     <p>
                         We use your registration to identify the exact make and
                         model of your vehicle – nothing else, you are in safe
