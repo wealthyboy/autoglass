@@ -88,8 +88,8 @@
                 <p class="mb-1 mb-md-0 d-flex">
                     <img
                         class="ne-desktop"
-                        width="30"
-                        height="30"
+                        width="25"
+                        height="25"
                         src="/images/utils/tick-25.png"
                     />
                     <span class="fw-600 fw-md-700 bold">Good news!</span>

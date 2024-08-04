@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-light">
+    <div class="bg-light bg-grey">
         <div
             v-if="!isCompleted"
             class="d-flex justify-content-cente align-items-cente"
@@ -10,7 +10,7 @@
                     <div class="col-md-2 d-none d-md-block mt-5">
                         <ul class="nav flex-column timeline">
                             <li
-                                class="nav-item timeline-step border"
+                                class="nav-item timeline-step border bg-light"
                                 v-for="(step, index) in steps"
                                 :key="index"
                                 :class="{ active: currentStep === index }"
@@ -27,7 +27,9 @@
                     </div>
                     <!-- Form Steps -->
                     <div class="col-md-9">
-                        <h2>Book your appointment in minutes</h2>
+                        <h2 class="font-weight-bold text-black">
+                            Book your appointment in minutes
+                        </h2>
 
                         <div class="card">
                             <!-- Timeline for mobile screens -->
@@ -168,5 +170,27 @@ export default {
 <style>
 .nav-link.active {
     font-weight: bold;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 20px;
+}
+.timeline-step {
+    position: relative;
+}
+.timeline-step.active {
+    background-color: #008000 !important;
+    color: #fff !important;
+}
+.timeline-step.active::after {
+    content: "";
+    position: absolute;
+    right: -30px; /* Extend further to the right */
+    top: 50%;
+    transform: translateY(-50%);
+    border-width: 15px; /* Increase the size of the arrow */
+    border-style: solid;
+    border-color: transparent transparent transparent #008000;
 }
 </style>

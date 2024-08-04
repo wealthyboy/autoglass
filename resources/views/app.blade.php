@@ -52,7 +52,7 @@
     <body class="font-sans antialiased">
         <header class="  ">
             <nav class="navbar navbar-expand-md fixed-to">
-                <div class="container-fluid shadow-sm p-3">
+                <div class="container-fluid p-3">
                     <a class="navbar-brand" href="/">
                         <img
                             alt="Autocglass"
@@ -69,11 +69,11 @@
             </nav>
         </header>
 
-        <div class="main ">
+        <div class="main  bg-grey">
            @inertia
         </div>
 
-        <footer id="footer" class=" mt-0 position-absolute bottom-0 shadow-sm p-3">
+        <footer id="footer2" class=" mt-0 position-absolute bottom-0 w-100 shadow-sm p-3">
             <div class="container">
                 <div class="row ">
                     @foreach($footer_info as $info)
