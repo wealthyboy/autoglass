@@ -84,6 +84,25 @@
         </div>
 
         <div class="d-flex justify-content-end mt-3">
+            <div v-if="message" class="row">
+                <p class="mb-1 mb-md-0 d-flex">
+                    <img
+                        class="ne-desktop"
+                        width="30"
+                        height="30"
+                        src="/images/utils/tick-25.png"
+                    />
+                    <span class="fw-600 fw-md-700 bold">Good news!</span>
+                    <span> We should be able to fix your </span>
+                </p>
+                <div class="col-12 mx-2">
+                    {{ message }}
+                </div>
+
+                <div v-if="message" class="mx-2">
+                    Please click <span class="bold">Next</span> to continue
+                </div>
+            </div>
             <div class="col-12 col-md-6 d-flex">
                 <img
                     class="help-info"
@@ -101,24 +120,6 @@
                     </p>
                 </div>
             </div>
-        </div>
-
-        <div v-if="message" class="row mt-4">
-            <p class="mb-1 mb-md-0 d-flex">
-                <img
-                    class="ne-desktop"
-                    width="30"
-                    height="30"
-                    src="/images/utils/tick-25.png"
-                />
-                <span class="fw-600 fw-md-700">Good news!</span> We should be
-                able to fix your
-            </p>
-            <div class="col-12 mx-2">
-                {{ message }}
-            </div>
-
-            <div v-if="message" class="mx-2">Please click next to continue</div>
         </div>
     </div>
 </template>

@@ -1,16 +1,16 @@
 <template>
-    <div class="">
+    <div class="bg-light">
         <div
             v-if="!isCompleted"
             class="d-flex justify-content-cente align-items-cente"
         >
-            <div class="container mt-5">
+            <div class="container mt-2">
                 <div class="row justify-content-center">
                     <!-- Timeline for larger screens -->
-                    <div class="col-md-2 d-none d-md-block">
+                    <div class="col-md-2 d-none d-md-block mt-5">
                         <ul class="nav flex-column timeline">
                             <li
-                                class="nav-item timeline-step"
+                                class="nav-item timeline-step border"
                                 v-for="(step, index) in steps"
                                 :key="index"
                                 :class="{ active: currentStep === index }"
