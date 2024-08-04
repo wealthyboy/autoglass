@@ -174,7 +174,6 @@ export default {
             }
 
             if (savedModels) {
-                form.model_id = "";
                 models.value = JSON.parse(savedModels);
             }
 
@@ -182,7 +181,6 @@ export default {
                 .get("/api/years")
                 .then((response) => {
                     years.value = response.data;
-                    form.model_id = "";
                 })
                 .catch((error) => {
                     console.log(error);
