@@ -50,61 +50,64 @@
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
-    <header class="border">
-        <nav class="navbar navbar-expand-md fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <img
-                        alt="Porto"
-                        width="220"
-                        height="48"
-                        data-sticky-width="82"
-                        data-sticky-height="40"
-                        data-sticky-top="84"
-                        src="/images/logo/Autoglass_logo2.png"
-                    />
-                </a>
-              
-            </div>
-        </nav>
-    </header>
-        @inertia
+        <header class="  ">
+            <nav class="navbar navbar-expand-md fixed-to">
+                <div class="container-fluid shadow-sm p-3">
+                    <a class="navbar-brand" href="/">
+                        <img
+                            alt="Autocglass"
+                            width="220"
+                            height="48"
+                            data-sticky-width="82"
+                            data-sticky-height="40"
+                            data-sticky-top="84"
+                            src="/images/logo/Autoglass_logo2.png"
+                        />
+                    </a>
+                
+                </div>
+            </nav>
+        </header>
 
-			<footer id="footer" class=" mt-0">
-				<div class="container">
-					<div class="row ">
-						@foreach($footer_info as $info)
-						<div class="col-sm-6 col-6 col-lg-6 mt-3">
-							<div class="widget">
-								@if($info->children->count())
-                                    <div class="links text-secondry d-flex text-black">
-                                        @foreach($info->children as $info)
-                                        <div class="py-1 text-black mb-0">
-                                            <a class=" text-black font-weight-bold " href="{{ $info->c_link }}">
-                                                {{ $info->name }}
-                                            </a>
-                                        </div>
-                                        @endforeach
+        <div class="main ">
+           @inertia
+        </div>
+
+        <footer id="footer" class=" mt-0 position-absolute bottom-0 shadow-sm p-3">
+            <div class="container">
+                <div class="row ">
+                    @foreach($footer_info as $info)
+                    <div class="col-sm-6 col-6 col-lg-6 mt-3">
+                        <div class="widget">
+                            @if($info->children->count())
+                                <div class="links text-secondry d-flex text-black">
+                                    @foreach($info->children as $info)
+                                    <div class="py-1 text-black mb-0">
+                                        <a class=" text-black font-weight-bold " href="{{ $info->c_link }}">
+                                            {{ $info->name }}
+                                        </a>
                                     </div>
-								@endif
+                                    @endforeach
+                                </div>
+                            @endif
 
-							</div><!-- End .widget -->
-						</div><!-- End .col-sm-6 -->
-						@endforeach
-					</div><!-- End .row -->
-				</div>
-			
-				<div id="footer" class="foot text-black  ">
-				
-					<div class="container py-2">
-						<div class="row">
-							<div class="col">
-								<p class="text-left  text-black  text-3 mb-0">{{ config('app.name') }} Services © 2024. All Rights Reserved.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-sm-6 -->
+                    @endforeach
+                </div><!-- End .row -->
+            </div>
+        
+            <div id="footer" class="foot text-black  ">
+            
+                <div class="container py-2">
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-left  text-black  text-3 mb-0">{{ config('app.name') }} Services © 2024. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

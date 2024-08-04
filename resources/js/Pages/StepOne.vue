@@ -83,7 +83,7 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-end">
+        <div class="d-flex justify-content-end mt-3">
             <div class="col-12 col-md-6 d-flex">
                 <img
                     class="help-info"

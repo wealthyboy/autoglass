@@ -1,5 +1,5 @@
 <template>
-    <main class="mt-5 bg-light">
+    <div class="">
         <div
             v-if="!isCompleted"
             class="d-flex justify-content-cente align-items-cente"
@@ -34,7 +34,7 @@
                             <div class="card-header d-md-none">
                                 <ul class="nav nav-tabs card-header-tabs">
                                     <li
-                                        class="nav-item"
+                                        class="nav-item border"
                                         v-for="(step, index) in steps"
                                         :key="index"
                                     >
@@ -99,7 +99,7 @@
                 <p>Your appointment has been booked successfully.</p>
             </div>
         </div>
-    </main>
+    </div>
 </template>
 
 <script>
