@@ -15,11 +15,7 @@
                                 :key="index"
                                 :class="{ active: currentStep === index }"
                             >
-                                <a
-                                    class="nav-link"
-                                    @click="goToStep(index)"
-                                    href="#"
-                                >
+                                <a class="nav-link" href="#">
                                     {{ step.title }}
                                 </a>
                             </li>

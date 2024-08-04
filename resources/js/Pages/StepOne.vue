@@ -85,19 +85,19 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-end mt-3">
-            <div v-if="message" class="row">
-                <p class="mb-1 mb-md-0 d-flex">
+        <div class="d-flex justify-content-between mt-3">
+            <div class="">
+                <p v-if="message" class="mb-1 mb-md-0 d-flex">
                     <img
                         class="ne-desktop"
                         width="25"
                         height="25"
                         src="/images/utils/tick-25.png"
                     />
-                    <span class="fw-600 fw-md-700 bold">
+                    <span class="fw-600 fw-md-700 text-black bold">
                         <strong> Good news! </strong>
                     </span>
-                    <span> We should be able to fix your </span>
+                    <span class="ml-3"> We should be able to fix your </span>
                 </p>
                 <div class="col-12 mx-2">
                     {{ message }}
