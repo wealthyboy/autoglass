@@ -249,7 +249,7 @@
 			<a class="chat-on-watsapp d-flex justify-content-between align-items-center" target="_blank" rel="noreferrer" href="https://wa.me/+23407040333495">
 				<span class="d-flex flex-column me-2">
 					<span class="text-black text-0">Need Help?</span>
-					<span class="text-black  text-0">Chat with us</span>
+					<span class="text-black  text-1">Chat with us</span>
 				</span>
 				<span class="me-1">
 					<img src="/images/utils/afng-whatsapp.png" alt="whatsapp" title="contact us on whatsapp" width="35" srcset="">
