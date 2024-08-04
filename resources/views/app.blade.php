@@ -50,6 +50,24 @@
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
+    <header class="border">
+        <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img
+                        alt="Porto"
+                        width="220"
+                        height="48"
+                        data-sticky-width="82"
+                        data-sticky-height="40"
+                        data-sticky-top="84"
+                        src="/images/logo/Autoglass_logo2.png"
+                    />
+                </a>
+              
+            </div>
+        </nav>
+    </header>
         @inertia
 
 			<footer id="footer" class=" mt-0">

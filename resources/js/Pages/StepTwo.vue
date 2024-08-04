@@ -30,7 +30,7 @@
                             :src="parent.image"
                             v-if="parent.image"
                             :alt="parent.name"
-                            class="img-fluid parent-image"
+                            class="img-fluid border"
                         />
                     </div>
                     {{ parent.name }}
@@ -56,7 +56,7 @@
                                 :src="child.image"
                                 v-if="child.image"
                                 :alt="child.name"
-                                class="img-fluid parent-image"
+                                class="img-fluid border"
                             />
                         </div>
                         {{ child.name }}

@@ -1,35 +1,5 @@
 <template>
-    <header>
-        <nav class="navbar navbar-expand-md fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <img
-                        alt="Porto"
-                        width="220"
-                        height="48"
-                        data-sticky-width="82"
-                        data-sticky-height="40"
-                        data-sticky-top="84"
-                        src="/images/logo/Autoglass_logo2.png"
-                    />
-                </a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse"></div>
-            </div>
-        </nav>
-    </header>
-
-    <main class="mt-5">
+    <main class="mt-5 bg-light">
         <div
             v-if="!isCompleted"
             class="d-flex justify-content-cente align-items-cente"
