@@ -206,29 +206,27 @@
 
 			<footer id="footer" class=" mt-0">
 				<div class="container">
-				<div class="row ">
-			@foreach($footer_info as $info)
-			<div class="col-sm-6 col-6 col-lg-6 mt-3">
-				<div class="widget">
-					<h2 class="widget-title text-white mb-0 font-weight-bold ">{{ Ucfirst($info->name) }}</h2>
-					@if($info->children->count())
-					<ul class="links text-secondry list-unstyled  text-white">
-						@foreach($info->children as $info)
-						<li class="py-1  text-white mb-0">
-							<a class=" text-white font-weight-bold " href="{{ $info->c_link }}">
-								{{ $info->name }}
-							</a>
-						</li>
+					<div class="row ">
+						@foreach($footer_info as $info)
+						<div class="col-sm-6 col-6 col-lg-6 mt-3">
+							<div class="widget">
+								<h2 class="widget-title text-white mb-0 font-weight-bold ">{{ Ucfirst($info->name) }}</h2>
+								@if($info->children->count())
+								<ul class="links text-secondry list-unstyled  text-white">
+									@foreach($info->children as $info)
+									<li class="py-1  text-white mb-0">
+										<a class=" text-white font-weight-bold " href="{{ $info->c_link }}">
+											{{ $info->name }}
+										</a>
+									</li>
+									@endforeach
+								</ul>
+								@endif
+
+							</div><!-- End .widget -->
+						</div><!-- End .col-sm-6 -->
 						@endforeach
-					</ul>
-					@endif
-
-				</div><!-- End .widget -->
-			</div><!-- End .col-sm-6 -->
-			@endforeach
-
-
-             </div><!-- End .row -->
+					</div><!-- End .row -->
 				</div>
 			
 				<div id="footer" class="foot text-white  ">

@@ -51,6 +51,42 @@
     </head>
     <body class="font-sans antialiased">
         @inertia
+
+			<footer id="footer" class=" mt-0">
+				<div class="container">
+					<div class="row ">
+						@foreach($footer_info as $info)
+						<div class="col-sm-6 col-6 col-lg-6 mt-3">
+							<div class="widget">
+								@if($info->children->count())
+                                    <div class="links text-secondry d-flex text-black">
+                                        @foreach($info->children as $info)
+                                        <div class="py-1 text-black mb-0">
+                                            <a class=" text-black font-weight-bold " href="{{ $info->c_link }}">
+                                                {{ $info->name }}
+                                            </a>
+                                        </div>
+                                        @endforeach
+                                    </div>
+								@endif
+
+							</div><!-- End .widget -->
+						</div><!-- End .col-sm-6 -->
+						@endforeach
+					</div><!-- End .row -->
+				</div>
+			
+				<div id="footer" class="foot text-black  ">
+				
+					<div class="container py-2">
+						<div class="row">
+							<div class="col">
+								<p class="text-left  text-black  text-3 mb-0">{{ config('app.name') }} Services © 2024. All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

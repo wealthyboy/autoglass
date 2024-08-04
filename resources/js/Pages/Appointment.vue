@@ -130,20 +130,6 @@
             </div>
         </div>
     </main>
-
-    <footer class="text-muted py-5">
-        <div class="container">
-            <p class="mb-1">
-                Terms of Business Privacy policy Cookie policy Modern slavery
-                act Legal Notices Accessibility Sitemap Belron UK Limited t/a
-                Autoglass® is registered in England and Wales. Number: 00494648.
-                Registered Office: 1 Priory Business Park, Cardington, Bedford,
-                Bedfordshire MK44 3US. AUTOGLASS® and the logo are registered
-                trademarks of Belron Group S.A. and its affiliated companies. ©
-                Copyright 2024 Belron UK Limited. All rights reserved
-            </p>
-        </div>
-    </footer>
 </template>
 
 <script>
