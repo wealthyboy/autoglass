@@ -9,7 +9,7 @@
             </ol>
         </nav>
 
-        <h4 class="ne-selected">
+        <h4 class="ne-selected font-weight-bold">
             <img src="/images/utils/tick-black-20.png" />
             Please tell us which window is damaged
         </h4>
@@ -38,7 +38,7 @@
             </div>
 
             <div v-if="showChildren">
-                <h4 class="ne-selected">
+                <h4 class="ne-selected font-weight-bold">
                     <img src="/images/utils/tick-black-20.png" />
                     How many areas of damage are there?
                 </h4>

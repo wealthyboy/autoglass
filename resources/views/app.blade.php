@@ -73,7 +73,7 @@
            @inertia
         </div>
 
-        <footer id="footer2" class=" mt-0 position-absolute bottom-0 w-100 shadow-sm p-3">
+        <footer id="footer2" class=" mt-0  w-100 shadow-sm p-3">
             <div class="container">
                 <div class="row ">
                     @foreach($footer_info as $info)

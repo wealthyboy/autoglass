@@ -57,7 +57,7 @@
                         v-model="form.model_id"
                         data-next="step-two"
                     >
-                        <option selected value="0">Model</option>
+                        <option value="">Model</option>
                         <option
                             v-for="model in models"
                             :key="model.id"
@@ -153,7 +153,7 @@ export default {
         const form = reactive({
             year: "0",
             make_id: "0",
-            model_id: "0",
+            model_id: "",
             type: "",
             next: "",
         });
@@ -174,6 +174,7 @@ export default {
             }
 
             if (savedModels) {
+                form.model_id = "";
                 models.value = JSON.parse(savedModels);
             }
 
@@ -181,6 +182,7 @@ export default {
                 .get("/api/years")
                 .then((response) => {
                     years.value = response.data;
+                    form.model_id = "";
                 })
                 .catch((error) => {
                     console.log(error);
@@ -199,6 +201,7 @@ export default {
                             "makes",
                             JSON.stringify(response.data.data)
                         );
+                        form.model_id = "";
                     }
 
                     if (nt === "models") {

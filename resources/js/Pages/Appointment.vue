@@ -4,7 +4,7 @@
             v-if="!isCompleted"
             class="d-flex justify-content-cente align-items-cente"
         >
-            <div class="container mt-2">
+            <div class="container mt-3 mb-3">
                 <div class="row justify-content-center">
                     <!-- Timeline for larger screens -->
                     <div class="col-md-2 d-none d-md-block mt-5">
@@ -171,7 +171,9 @@ export default {
 .nav-link.active {
     font-weight: bold;
 }
-
+li.nav-item.timeline-step.border.bg-light.active a {
+    color: #ffffff !important;
+}
 .timeline {
     position: relative;
     padding-left: 20px;
