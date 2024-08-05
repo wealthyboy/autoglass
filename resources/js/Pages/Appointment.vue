@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-light bg-grey">
+    <div class="bg-light bg-grey mb-5">
         <div
             v-if="!isCompleted"
             class="d-flex justify-content-cente align-items-cente"
