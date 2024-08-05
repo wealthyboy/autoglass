@@ -18,7 +18,7 @@
             <!-- Parent Images -->
             <div class="d-flex">
                 <div
-                    class="mb-2"
+                    class="mb-2 border"
                     v-for="(parent, index) in parentImages"
                     :key="index"
                 >
@@ -46,7 +46,7 @@
                 </h4>
                 <div class="d-flex">
                     <div
-                        class="mb-2"
+                        class="mb-2 border"
                         v-for="(child, index) in childImages"
                         :key="index"
                     >
