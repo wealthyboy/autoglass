@@ -74,24 +74,24 @@
         </div>
 
         <footer id="footer2" class=" mt-0  w-100 shadow-sm p-3">
-          
-                    @foreach($footer_info as $info)
-                    
-                            @if($info->children->count())
+            <div class="container">
+                <div class="row ">
+                    @foreach($footer_children as $info)
+                    <div class="col-sm-2  ">
+                        <div class="widget">
                                 <div class="links text-secondry d-flex text-black">
-                                    @foreach($info->children as $info)
                                     <div class="py-1 text-black mb-0">
                                         <a class=" text-black font-weight-bold " href="{{ $info->c_link }}">
                                             {{ $info->name }}
                                         </a>
                                     </div>
-                                    @endforeach
                                 </div>
-                            @endif
 
-                
+                        </div><!-- End .widget -->
+                    </div><!-- End .col-sm-6 -->
                     @endforeach
-                
+                </div><!-- End .row -->
+            </div>
         
             <div id="footer" class="foot text-black  ">
             

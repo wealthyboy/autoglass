@@ -23,6 +23,8 @@ class   NavComposer
 	{
 		$global_categories = Category::parents('sort_order', 'desc')->get();
 		$footer_info = Page::with('children')->parents()->get();
+		$footer_children = Page::where('parent_id', '!=', null)->get();
+
 		//$global_promo = Promo::first();
 		$system_settings = Setting::first();
 		$yrs = json_encode(Helper::years());
@@ -35,7 +37,8 @@ class   NavComposer
 			'system_settings' => $system_settings,
 			//'global_promo' => $global_promo,
 			'yrs' => $yrs,
-			'user' => $user
+			'user' => $user,
+			'footer_children' => $footer_children
 		]);
 	}
 }
