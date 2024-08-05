@@ -33,7 +33,7 @@
                             class="img-fluid"
                         />
                     </div>
-                    <span class="font-weight-bold">
+                    <span class="font-weight-bold text-center">
                         {{ parent.name }}
                     </span>
                 </div>
@@ -61,7 +61,7 @@
                                 class="img-fluid"
                             />
                         </div>
-                        <span class="font-weight-bold">
+                        <span class="font-weight-bold text-center">
                             {{ child.name }}
                         </span>
                     </div>
@@ -191,5 +191,9 @@ export default {
 .child-image {
     border: 1px solid #ddd;
     padding: 3px;
+}
+
+.border {
+    border: 10px solid #dee2e6 !important;
 }
 </style>
