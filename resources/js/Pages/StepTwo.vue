@@ -18,7 +18,7 @@
             <!-- Parent Images -->
             <div class="d-flex">
                 <div
-                    class="mb-2 border me-2"
+                    class="mb-2 border-1 me-2"
                     role="button"
                     v-for="(parent, index) in parentImages"
                     :key="index"
@@ -29,7 +29,6 @@
                     >
                         <img
                             :src="parent.image"
-                            v-if="parent.image"
                             :alt="parent.name"
                             class="img-fluid"
                         />
@@ -47,13 +46,13 @@
                 </h4>
                 <div class="d-flex">
                     <div
-                        class="mb-2 border"
+                        class="mb-2 border text-center"
                         v-for="(child, index) in childImages"
                         :key="index"
                     >
                         <div
                             @click="childIsClicked(child.id)"
-                            class="image-container"
+                            class="image-container text-center"
                         >
                             <img
                                 :src="child.image"
@@ -194,7 +193,11 @@ export default {
     padding: 3px;
 }
 
-.border {
+.border-1 {
     border: 10px solid #dee2e6 !important;
+}
+
+.border-1:hover {
+    border: 10px solid #008000 !important;
 }
 </style>
