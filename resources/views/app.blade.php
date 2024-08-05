@@ -74,11 +74,9 @@
         </div>
 
         <footer id="footer2" class=" mt-0  w-100 shadow-sm p-3">
-            <div class="container">
-                <div class="row ">
+          
                     @foreach($footer_info as $info)
-                    <div class="col-sm- mt-3">
-                        <div class="widget">
+                    
                             @if($info->children->count())
                                 <div class="links text-secondry d-flex text-black">
                                     @foreach($info->children as $info)
@@ -91,11 +89,9 @@
                                 </div>
                             @endif
 
-                        </div><!-- End .widget -->
-                    </div><!-- End .col-sm-6 -->
+                
                     @endforeach
-                </div><!-- End .row -->
-            </div>
+                
         
             <div id="footer" class="foot text-black  ">
             
