@@ -30,14 +30,16 @@
                             :src="parent.image"
                             v-if="parent.image"
                             :alt="parent.name"
-                            class="img-fluid border"
+                            class="img-fluid"
                         />
                     </div>
-                    {{ parent.name }}
+                    <span>
+                        {{ parent.name }}
+                    </span>
                 </div>
             </div>
 
-            <div v-if="showChildren">
+            <div v-if="showChildren && childImages.length">
                 <h4 class="ne-selected font-weight-bold">
                     <img src="/images/utils/tick-black-20.png" />
                     How many areas of damage are there?
@@ -56,10 +58,12 @@
                                 :src="child.image"
                                 v-if="child.image"
                                 :alt="child.name"
-                                class="img-fluid border"
+                                class="img-fluid"
                             />
                         </div>
-                        {{ child.name }}
+                        <span>
+                            {{ child.name }}
+                        </span>
                     </div>
                 </div>
             </div>
