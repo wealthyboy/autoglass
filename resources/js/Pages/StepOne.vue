@@ -117,7 +117,7 @@
                     width="20"
                     height="20"
                 />
-                <div class="ne-help-panel-content">
+                <!-- <div class="ne-help-panel-content">
                     <h4 class="font-weight-bold text-4 ml-2">
                         Why are we asking?
                     </h4>
@@ -126,7 +126,7 @@
                         model of your vehicle – nothing else, you are in safe
                         hands.
                     </p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
