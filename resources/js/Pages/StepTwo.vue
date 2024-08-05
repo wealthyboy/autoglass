@@ -18,7 +18,7 @@
             <!-- Parent Images -->
             <div class="d-flex">
                 <div
-                    class="mb-2 border-wizard me-2"
+                    class="mb-2 border-wizard me-2 text-center"
                     :class="{ 'border-active': isActiveParent(parent.id) }"
                     role="button"
                     v-for="(parent, index) in parentImages"
@@ -45,7 +45,7 @@
                 </h4>
                 <div class="d-flex">
                     <div
-                        class="mb-2 border-wizard text-center"
+                        class="mb-2 border-wizard me-2 text-center"
                         v-for="(child, index) in childImages"
                         :key="index"
                         :class="{ 'border-active': isActiveChild(child.id) }"
