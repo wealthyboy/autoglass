@@ -44,7 +44,7 @@
                 </div>
             </div>
 
-            <div v-if="showChildren && childImages.length">
+            <div class="mt-3" v-if="showChildren && childImages.length">
                 <h4 class="ne-selected font-weight-bold">
                     <img src="/images/utils/tick-black-20.png" />
                     Identify type of damage
