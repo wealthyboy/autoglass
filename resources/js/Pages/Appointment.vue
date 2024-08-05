@@ -94,7 +94,7 @@
         >
             <div class="text-center">
                 <h1>Thank You!</h1>
-                <p>Your appointment has been booked successfully.</p>
+                <p>One of our glass experts will contact you..</p>
             </div>
         </div>
     </div>
