@@ -18,15 +18,14 @@
             <!-- Parent Images -->
             <div class="d-flex">
                 <div
-                    class="mb-2 border-1 me-2"
+                    class="mb-2 border-wizard me-2"
+                    :class="{ 'border-active': isActiveParent(parent.id) }"
                     role="button"
                     v-for="(parent, index) in parentImages"
+                    @click="toggleChildren(index, parent.id)"
                     :key="index"
                 >
-                    <div
-                        @click="toggleChildren(index, parent.id)"
-                        class="image-container"
-                    >
+                    <div class="image-container">
                         <img
                             :src="parent.image"
                             :alt="parent.name"
@@ -46,14 +45,14 @@
                 </h4>
                 <div class="d-flex">
                     <div
-                        class="mb-2 border-1 text-center"
+                        class="mb-2 border-wizard text-center"
                         v-for="(child, index) in childImages"
                         :key="index"
+                        :class="{ 'border-active': isActiveChild(child.id) }"
+                        role="button"
+                        @click="childIsClicked(child.id)"
                     >
-                        <div
-                            @click="childIsClicked(child.id)"
-                            class="image-container text-center"
-                        >
+                        <div class="image-container text-center">
                             <img
                                 :src="child.image"
                                 v-if="child.image"
@@ -84,6 +83,8 @@ export default {
         const parentImages = ref(props.categories);
         const childImages = ref([]);
         const showChildren = ref(false);
+        const activeParent = ref(null);
+        const activeChild = ref(null);
         const car = ref("");
         const category_id = reactive({
             parent_id: null,
@@ -105,8 +106,17 @@ export default {
             }
         });
 
+        const isActiveParent = (ac) => {
+            return ac === activeParent.value;
+        };
+
+        const isActiveChild = (id) => {
+            return id === activeChild.value;
+        };
+
         const childIsClicked = (id) => {
             category_id.child_id = id;
+            activeChild.value = id;
             axios
                 .post("/set-category", category_id)
                 .then((res) => {
@@ -133,8 +143,8 @@ export default {
         }
 
         const toggleChildren = (index, id) => {
+            activeParent.value = id;
             category_id.parent_id = id;
-
             childImages.value = parentImages.value[index].children;
 
             if (childImages.value.length) {
@@ -167,6 +177,8 @@ export default {
             showChildren,
             childIsClicked,
             car,
+            isActiveParent,
+            isActiveChild,
         };
     },
 };
@@ -193,11 +205,15 @@ export default {
     padding: 3px;
 }
 
-.border-1 {
-    border: 10px solid #dee2e6 !important;
+.border-wizard {
+    border: 10px solid #dee2e6;
 }
 
-.border-1:hover {
+.border-active {
+    border: 10px solid #008000 !important;
+}
+
+.border-wizard:hover {
     border: 10px solid #008000 !important;
 }
 </style>
