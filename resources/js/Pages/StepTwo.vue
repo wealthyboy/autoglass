@@ -33,7 +33,7 @@
                             class="img-fluid"
                         />
                     </div>
-                    <span>
+                    <span class="font-weight-bold">
                         {{ parent.name }}
                     </span>
                 </div>
@@ -61,7 +61,7 @@
                                 class="img-fluid"
                             />
                         </div>
-                        <span>
+                        <span class="font-weight-bold">
                             {{ child.name }}
                         </span>
                     </div>
