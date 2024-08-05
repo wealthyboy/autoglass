@@ -46,7 +46,7 @@
                 </h4>
                 <div class="d-flex">
                     <div
-                        class="mb-2 border text-center"
+                        class="mb-2 border-1 text-center"
                         v-for="(child, index) in childImages"
                         :key="index"
                     >
