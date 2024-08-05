@@ -96,7 +96,7 @@
                 </div><!-- End .row -->
             </div>
         
-            <div id="footer" class="foot text-black  ">
+            <div id="footer2" class="foot text-black  ">
             
                 <div class="container">
                     <div class="row">
