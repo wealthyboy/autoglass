@@ -18,7 +18,8 @@
             <!-- Parent Images -->
             <div class="d-flex">
                 <div
-                    class="mb-2 border"
+                    class="mb-2 border me-2"
+                    role="button"
                     v-for="(parent, index) in parentImages"
                     :key="index"
                 >
