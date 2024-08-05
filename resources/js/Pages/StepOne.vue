@@ -110,13 +110,13 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 d-flex">
-                <img
+                <!-- <img
                     class="help-info"
                     src="/images/utils/info-30.png"
                     alt="helpinfo"
                     width="20"
                     height="20"
-                />
+                /> -->
                 <!-- <div class="ne-help-panel-content">
                     <h4 class="font-weight-bold text-4 ml-2">
                         Why are we asking?
