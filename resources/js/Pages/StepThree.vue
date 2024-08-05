@@ -2,20 +2,31 @@
     <div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Your car</a></li>
                 <li class="breadcrumb-item">
-                    <a href="#">{{ car }}</a>
+                    <a class="font-weight-bold text-color-dark" href="#"
+                        >Your car</a
+                    >
                 </li>
                 <li class="breadcrumb-item">
-                    <a href="#">{{ parent }}</a>
+                    <a href="#" class="font-weight-bold text-color-dark">{{
+                        car
+                    }}</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#" class="font-weight-bold text-color-dark">{{
+                        parent
+                    }}</a>
                 </li>
 
-                <li class="breadcrumb-item active" aria-current="page">
+                <li
+                    class="breadcrumb-item active font-weight-bold text-color-dark"
+                    aria-current="page"
+                >
                     {{ child }}
                 </li>
             </ol>
         </nav>
-        <h3>Step 3: Your details</h3>
+        <h3 class="text-color-dark font-weight-bold">Step 3: Your details</h3>
         <p>Please complete the fields below and we will call you shortly</p>
         <form @submit.prevent="submitForm">
             <!-- Form Fields -->
@@ -70,7 +81,9 @@
             </div>
 
             <div class="mb-3">
-                <label for=""> Anything you would like to tell us</label>
+                <label class="text-color-dark font-weight-bold" for="">
+                    Anything you would like to tell us</label
+                >
                 <textarea
                     id="note"
                     :error="v$.note"

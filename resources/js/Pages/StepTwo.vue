@@ -2,9 +2,15 @@
     <div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#">Your car</a></li>
                 <li class="breadcrumb-item">
-                    <a href="#">{{ car }}</a>
+                    <a href="#" class="text-color-dark font-weight-bold"
+                        >Your car</a
+                    >
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="#" class="text-color-dark font-weight-bold">{{
+                        car
+                    }}</a>
                 </li>
             </ol>
         </nav>
@@ -32,7 +38,7 @@
                             class="img-fluid"
                         />
                     </div>
-                    <span class="font-weight-bold text-center">
+                    <span class="font-weight-bold text-center text-color-dark">
                         {{ parent.name }}
                     </span>
                 </div>
@@ -60,7 +66,9 @@
                                 class="img-fluid"
                             />
                         </div>
-                        <span class="font-weight-bold text-center">
+                        <span
+                            class="font-weight-bold text-center text-color-dark"
+                        >
                             {{ child.name }}
                         </span>
                     </div>

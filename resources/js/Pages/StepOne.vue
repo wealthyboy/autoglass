@@ -95,9 +95,11 @@
                         src="/images/utils/tick-25.png"
                     />
                     <span class="fw-600 fw-md-700 text-black bold">
-                        <strong> Good news! </strong>
+                        <strong class="text-color-dark font-weight-bold">
+                            Good news!
+                        </strong>
                     </span>
-                    <span class="ml-3"> We should be able to fix your </span>
+                    <span class="mx-1"> We should be able to fix your </span>
                 </p>
                 <div class="col-12 mx-2">
                     {{ message }}
