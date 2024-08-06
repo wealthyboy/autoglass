@@ -87,7 +87,7 @@ class AppointmentsController extends Controller
         $request->session()->put('child_id', $request->child_id);
         $message = "Next";
         $parent = Category::find($request->parent_id)->name;
-        $child = optional(Category::find($request->child_id)->name;
+        $child = optional(Category::find($request->child_id))->name;
 
         return response()->json(['message' => $message, 'parent' => $parent, 'child' => $child ]);   
     }
