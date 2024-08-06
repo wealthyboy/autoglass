@@ -23,9 +23,7 @@
                     </div>
                     <!-- Form Steps -->
                     <div class="col-md-9">
-                        <h2 class="font-weight-bold text-black">
-                            Book your appointment in minutes
-                        </h2>
+                        <h2 class="font-weight-bold text-black">Get a quote</h2>
 
                         <div class="card">
                             <!-- Timeline for mobile screens -->

@@ -15,8 +15,8 @@
 		<meta name="author" content="Autoglass">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 
 		<!-- Mobile Metas -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -152,7 +152,7 @@
 										<div class="header-nav-main header-nav-main-arrows header-nav-main-dropdown-no-borders header-nav-main-effect-3 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
-													<li><a href="/book-appointment" class="nav-link font-weight-bold me-4 text-color-dark">Book Appointment</a></li>
+													<li><a href="/book-appointment" class="nav-link font-weight-bold me-4 text-color-dark">Get a quote</a></li>
 												
 													<li><a href="/pages/about-us" class="nav-link font-weight-bold me-4 text-color-dark">About Us</a></li>
 													<li><a href="/pages/services" class="nav-link font-weight-bold me-4 text-color-dark">Services</a></li>
