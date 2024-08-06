@@ -87,7 +87,7 @@
 
         <div class="d-flex justify-content-between mt-3">
             <div class="">
-                <p v-if="message" class="mb-1 mb-md-0 d-flex">
+                <p v-if="message" class="mb-1 mb-md-0 d-flex w-100">
                     <img
                         class="ne-desktop"
                         width="25"
@@ -108,25 +108,6 @@
                 <div v-if="message" class="mx-2">
                     Please click <span class="bold">Next</span> to continue
                 </div>
-            </div>
-            <div class="col-12 col-md-6 d-flex">
-                <!-- <img
-                    class="help-info"
-                    src="/images/utils/info-30.png"
-                    alt="helpinfo"
-                    width="20"
-                    height="20"
-                /> -->
-                <!-- <div class="ne-help-panel-content">
-                    <h4 class="font-weight-bold text-4 ml-2">
-                        Why are we asking?
-                    </h4>
-                    <p>
-                        We use your registration to identify the exact make and
-                        model of your vehicle – nothing else, you are in safe
-                        hands.
-                    </p>
-                </div> -->
             </div>
         </div>
     </div>
