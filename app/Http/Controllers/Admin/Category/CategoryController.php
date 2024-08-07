@@ -212,7 +212,6 @@ class CategoryController extends Table
        $category->slug = Str::slug($request->name);
        $category->save();
 
-       dd($category);
         //Log Activity
         // (new Activity)->Log("Updated  Category {$request->name} ");
 
