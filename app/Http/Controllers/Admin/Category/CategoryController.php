@@ -101,7 +101,7 @@ class CategoryController extends Table
 //        $category->title = $request->meta_title;
         $category->slug = Str::slug($request->name);
         $category->sort_order = $request->sort_order;
-        $category->is_repairable = $request->is_repairable ? 1 :0;
+        $category->is_repairable = $request->is_repairable === 1? 1 :0;
         $category->description = $request->description;
         $category->parent_id = $request->parent_id;
         $category->save();
@@ -198,7 +198,7 @@ class CategoryController extends Table
        // $category->is_active = $request->is_active ? 1 : 0;
         $category->parent_id = $request->parent_id;
         $category->description = $request->description;
-        $category->is_repairable = $request->is_repairable ? 1 :0;
+        $category->is_repairable = $request->is_repairable  === 1 ? 1 : 0;
 
        // $category->image_custom_link = $request->image_custom_link;
         $category->image = $request->image;

@@ -60,7 +60,7 @@
                      <div class="input-group input-group-outline">
                         <label class="form-label mt-4 ms-0"> </label>
                         <select class="form-control" name="is_repairable" id="">
-                           <option value="" selected>--Is repaiarable--</option>
+                           <option value="" selected>--Is repairable--</option>
                            <option  value="1"> Yes</option>
                         </select>
                      </div>
