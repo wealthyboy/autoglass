@@ -28,7 +28,7 @@
                     :class="{ 'border-active': isActiveParent(parent.id) }"
                     role="button"
                     v-for="(parent, index) in parentImages"
-                    @click="toggleChildren(index, parent.id)"
+                    @click="toggleChildren(index, parent)"
                     :key="index"
                 >
                     <div class="image-container">
@@ -56,7 +56,7 @@
                         :key="index"
                         :class="{ 'border-active': isActiveChild(child.id) }"
                         role="button"
-                        @click="childIsClicked(child.id)"
+                        @click="childIsClicked(child)"
                     >
                         <div class="image-container text-center">
                             <img
@@ -102,6 +102,7 @@ export default {
         const showChildren = ref(false);
         const activeParent = ref(null);
         const activeChild = ref(null);
+        const showNotification = ref(false);
         const car = ref("");
         const category_id = reactive({
             parent_id: null,
@@ -131,9 +132,10 @@ export default {
             return id === activeChild.value;
         };
 
-        const childIsClicked = (id) => {
-            category_id.child_id = id;
-            activeChild.value = id;
+        const childIsClicked = (child) => {
+            category_id.child_id = child.id;
+            activeChild.value = child.id;
+            showNotification.value = cat.is_repairable;
             axios
                 .post("/set-category", category_id)
                 .then((res) => {
@@ -159,9 +161,10 @@ export default {
             return obj ? obj.children : [];
         }
 
-        const toggleChildren = (index, id) => {
-            activeParent.value = id;
-            category_id.parent_id = id;
+        const toggleChildren = (index, cat) => {
+            activeParent.value = cat.id;
+            category_id.parent_id = cat.id;
+            showNotification.value = cat.is_repairable;
             childImages.value = parentImages.value[index].children;
 
             if (childImages.value.length) {
@@ -196,6 +199,7 @@ export default {
             car,
             isActiveParent,
             isActiveChild,
+            showNotification,
         };
     },
 };
