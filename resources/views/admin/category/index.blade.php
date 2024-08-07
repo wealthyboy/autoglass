@@ -61,7 +61,7 @@
                         <label class="form-label mt-4 ms-0"> </label>
                         <select class="form-control" name="is_repaiarable" id="">
                            <option value="" selected>--Is repaiarable--</option>
-                           <option class="" value="1"> Yes</option>
+                           <option  value="1"> Yes</option>
                         </select>
                      </div>
                   </div>
