@@ -65,7 +65,7 @@
                <div class="row mt-3">
                   <div class="col-sm-12 col-12">
                      <div class="input-group input-group-outline">
-                        <label class="form-label mt-4 ms-0"> </label>
+                        <label class="form-label mt-4 ms-0"> </label> {{$category}}
                         <select class="form-control" name="is_repaiarable" id="">
                            <option value=""  {{ $category->is_repaiarable == 0 ? 'selected' : '' }}>--Is repaiarable--</option>
                            <option  {{ $category->is_repaiarable == 1 ? 'selected' : '' }}  value="1">Yes</option>
