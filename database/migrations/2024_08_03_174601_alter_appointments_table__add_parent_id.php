@@ -12,8 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('appointments', function (Blueprint $table) {
-            $table->integer('parent_id')->unsigned()->index()->nullable();
-            $table->integer('child_id')->unsigned()->index()->nullable();
+           // $table->integer('parent_id')->unsigned()->index()->nullable();
+           // $table->integer('child_id')->unsigned()->index()->nullable();
 
         });
     }

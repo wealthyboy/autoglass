@@ -11,7 +11,7 @@ class Category extends Model
 {
     use HasChildren;
 
-    protected $fillable = ['name', 'description', 'slug', 'parent_id', 'sort_order', 'allow'];
+    protected $fillable = ['name','is_repairable', 'description', 'slug', 'parent_id', 'sort_order', 'allow'];
 
 
     public function children()

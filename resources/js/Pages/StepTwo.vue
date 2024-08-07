@@ -75,7 +75,10 @@
                 </div>
             </div>
 
-            <div class="alert alert-info">
+            <div
+                v-if="showNotification"
+                class="alert alert-info font-weight-bold"
+            >
                 NB: Only Front windshield is repairable, We can definitely
                 REPLACE your damaged window at AFFORDABLE cost, Click NEXT to
                 get a quote’

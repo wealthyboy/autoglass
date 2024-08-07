@@ -11,8 +11,8 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('attribute_years', function (Blueprint $table) {
-           // $table->integer('parent_id')->unsigned()->index()->nullable();
+        Schema::table('categories', function (Blueprint $table) {
+            $table->boolean('is_repairable')->default(false);
         });
     }
 
@@ -21,7 +21,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('attribute_years', function (Blueprint $table) {
+        Schema::table('categories', function (Blueprint $table) {
             //
         });
     }

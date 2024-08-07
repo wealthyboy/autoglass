@@ -54,6 +54,18 @@
                      </div>
                   </div>
                </div>
+
+               <div class="row mt-3">
+                  <div class="col-sm-12 col-12">
+                     <div class="input-group input-group-outline">
+                        <label class="form-label mt-4 ms-0"> </label>
+                        <select class="form-control" name="is_repaiarable" id="">
+                           <option value="" selected>--Is repaiarable--</option>
+                           <option class="" value="1"> Yes</option>
+                        </select>
+                     </div>
+                  </div>
+               </div>
                @include('admin._partials.single_image')
                <div class="d-flex justify-content-end mt-4">
                   <button type="submit" name="button" class="btn bg-gradient-dark m-0 ms-2">Submit</button>
