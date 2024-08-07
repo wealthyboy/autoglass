@@ -76,11 +76,11 @@
         </div>
 
 
-        <footer id="footer2" class=" mt-0  w-100 shadow-sm ">
+        <footer id="footer2" class=" mt-0  w-100 shadow-sm text-center ">
             <div class="container">
                 <div class="row ">
                     @foreach($footer_children as $info)
-                    <div class="col-sm-2  ">
+                    <div class="col-sm-2  text-center ">
                         <div class="widget">
                                 <div class="links text-secondry d-flex text-black">
                                     <div class="py-1 text-black mb-0">

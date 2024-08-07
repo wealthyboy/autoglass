@@ -40,7 +40,7 @@
                         type="text"
                     />
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mb-2">
                     <general-input
                         id="last_name"
                         :error="v$.last_name"
@@ -60,7 +60,7 @@
                         type="tel"
                     />
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <general-input
                         id="email"
                         :error="v$.email"
@@ -70,10 +70,13 @@
                     />
                 </div>
 
-                <div class="col-12 col-md-4 mt-4">
+                <div class="col-12 col-md-4 mb-2">
                     <div class="">
+                        <label class="text-color-dark font-weight-bold">
+                            City
+                        </label>
                         <select class="form-select">
-                            <option selected value="0">Choose State</option>
+                            <option selected value="0">Choose City</option>
                             <option>Lagos</option>
                         </select>
                     </div>

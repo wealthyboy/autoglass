@@ -74,6 +74,12 @@
                     </div>
                 </div>
             </div>
+
+            <div class="alert alert-info">
+                NB: Only Front windshield is repairable, We can definitely
+                REPLACE your damaged window at AFFORDABLE cost, Click NEXT to
+                get a quote’
+            </div>
         </div>
     </div>
 </template>
