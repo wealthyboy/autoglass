@@ -90,7 +90,7 @@
                 <textarea
                     id="note"
                     :error="v$.note"
-                    v-model="form.note"
+                    v-model="form.comment"
                     name="Note"
                     class="form-control"
                     placeholder="Comment"
@@ -141,7 +141,7 @@ export default {
             city: "",
             state: "",
             postal_code: "",
-            note: "",
+            comment: "",
         });
 
         onMounted(() => {

@@ -43,7 +43,6 @@ class AppointmentsController extends Controller
         $validated['category_id']= session('child_id');
         $validated['parent_id']= session('parent_id');
         $validated['child_id']= session('child_id');
-
         $validated['make'] = session('make');
         $validated['model'] = session('model');
         $validated['year'] = session('year');

@@ -23,7 +23,8 @@ class Appointment extends Model
 		'year',
 		'category_id',
 		'parent_id',
-		'child_id'
+		'child_id',
+		'comment'
         
     ];
 
