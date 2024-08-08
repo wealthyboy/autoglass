@@ -39,36 +39,53 @@
 
 				<div class="container my-5 pt-md-4 pt-xl-0">
 					<div class="row align-items-center justify-content-center pb-4 mb-5">
-						<div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0">
-							<div class="overflow-hidden">
-								<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="300">5 Years of Top Experience 
-								</h2>
-							</div>
-							<div class="custom-divider divider divider-primary divider-small my-3">
-								<hr class="my-0 appear-animation" data-appear-animation="customLineProgressAnim" data-appear-animation-delay="700">
-							</div>
-							<p class="font-weight-light text-3-5 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="450">Over the past five years, We have dedicated ourselves to mastering the intricacies of the auto glass industry, gaining a wealth of experience that spans from hands-on technical skills to comprehensive business management. </p>
-							<p class="pb-1 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700"> Our journey in this field has been marked by continuous learning, excellence customer service, and adapting to technological advancements.</p>
-							<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
-								<a href="/pages/about-us" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="950">VIEW MORE</a>
-								<div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1200">
-									<div class="feature-box-icon bg-transparent">
-										<i class="icons icon-phone text-6 text-color-dark"></i>
-									</div>
-									<div class="feature-box-info line-height-2 ps-1">
-										<span class="d-block text-1 font-weight-semibold text-color-default">CALL US NOW  </span>
-										<strong class="text-4-5"><a href="tel:{{$system_settings->phone}}" class="text-color-dark text-color-hover-primary text-decoration-none">{{$system_settings->phone}}</a></strong>
-									</div>
-								</div>
+						 <!-- First column that should appear first on mobile -->
+						<div class="col-10 col-md-9 col-lg-6 ps-lg-5 order-1 order-md-2 appear-animation"
+							data-appear-animation="fadeInRightShorterPlus"
+							data-appear-animation-delay="1450"
+							data-plugin-options="{'accY': -200}">
+						<div class="position-relative">
+							<div data-plugin-float-element
+								data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
+							<img src="/images/banners/repair_glass_autoglassng.jpg" class="img-fluid " alt="" />
 							</div>
 						</div>
-						<div class="col-10 col-md-9 col-lg-6 ps-lg-5 pe-5 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1450" data-plugin-options="{'accY': -200}">
-							<div class="position-relative">
-								<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-									<img src="/images/banners/repair_glass_autoglassng.jpg" class="img-fluid rounded-custom" alt="" />
-								</div>
-								
+						</div>
+
+						<!-- Second column that should appear second on mobile -->
+						<div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0 order-2 order-md-1">
+							<div class="overflow-hidden">
+								<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation"
+									data-appear-animation="maskUp"
+									data-appear-animation-delay="300">5 Years of Top Experience</h2>
 							</div>
+							<div class="custom-divider divider divider-primary divider-small my-3">
+								<hr class="my-0 appear-animation"
+									data-appear-animation="customLineProgressAnim"
+									data-appear-animation-delay="700">
+							</div>
+						<p class="font-weight-light text-3-5 mb-4 appear-animation"
+							data-appear-animation="fadeInUpShorter"
+							data-appear-animation-delay="450">Over the past five years, We have dedicated ourselves to mastering the intricacies of the auto glass industry, gaining a wealth of experience that spans from hands-on technical skills to comprehensive business management.</p>
+						<p class="pb-1 mb-4 appear-animation"
+							data-appear-animation="fadeInUpShorter"
+							data-appear-animation-delay="700">Our journey in this field has been marked by continuous learning, excellence customer service, and adapting to technological advancements.</p>
+						<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
+							<a href="/pages/about-us" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation"
+							data-appear-animation="fadeInRightShorterPlus"
+							data-appear-animation-delay="950">VIEW MORE</a>
+							<div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 appear-animation"
+								data-appear-animation="fadeInRightShorterPlus"
+								data-appear-animation-delay="1200">
+							<div class="feature-box-icon bg-transparent">
+								<i class="icons icon-phone text-6 text-color-dark"></i>
+							</div>
+							<div class="feature-box-info line-height-2 ps-1">
+								<span class="d-block text-1 font-weight-semibold text-color-default">CALL US NOW</span>
+								<strong class="text-4-5"><a href="tel:{{$system_settings->phone}}" class="text-color-dark text-color-hover-primary text-decoration-none">{{$system_settings->phone}}</a></strong>
+							</div>
+							</div>
+						</div>
 						</div>
 					</div>
 				
