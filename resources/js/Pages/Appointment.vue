@@ -88,7 +88,7 @@
 
         <div
             v-if="isCompleted"
-            class="d-flex justify-content-center align-items-center border mt-4"
+            class="container full-height d-flex justify-content-center align-items-center"
         >
             <div class="text-center">
                 <h1>Thank You!</h1>
@@ -188,5 +188,9 @@ li.nav-item.timeline-step.border.bg-light.active a {
     border-width: 15px; /* Increase the size of the arrow */
     border-style: solid;
     border-color: transparent transparent transparent #008000;
+}
+
+.full-height {
+    height: 100vh; /* Full viewport height */
 }
 </style>

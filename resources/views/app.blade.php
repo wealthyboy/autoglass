@@ -76,15 +76,15 @@
         </div>
 
 
-        <footer id="footer2" class=" mt-0  w-100 shadow-sm text-center ">
+        <footer id="footer"  class=" mt-0 bg-g  w-100 shadow-sm text-center ">
             <div class="container">
                 <div class="row ">
                     @foreach($footer_children as $info)
                     <div class="col-sm-2  text-center ">
                         <div class="widget">
-                                <div class="links text-secondry d-flex text-black">
+                                <div class="links text-secondry justify-content-center d-flex text-black">
                                     <div class="py-1 text-black mb-0">
-                                        <a class=" text-black font-weight-bold " href="{{ $info->c_link }}">
+                                        <a class=" text-white font-weight-bold " href="{{ $info->c_link }}">
                                             {{ $info->name }}
                                         </a>
                                     </div>
@@ -101,7 +101,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col">
-                            <p class="text-left  text-black  text-3 mb-0">{{ config('app.name') }} Services © 2024. All Rights Reserved.</p>
+                            <p class="text-left  text-white  text-3 mb-0">{{ config('app.name') }} Services © 2024. All Rights Reserved.</p>
                         </div>
                     </div>
                 </div>

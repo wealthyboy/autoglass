@@ -54,7 +54,7 @@ class AppointmentsController extends Controller
             \Notification::route('mail', $validated['email'])
                 ->notify(new AppointmentsNotification($validated));
         } catch (\Exception $e) {
-            return response()->json(['error' => $e->getMessage()], 500);
+           // return response()->json(['error' => $e->getMessage()], 500);
         }
 
         // Return a response
