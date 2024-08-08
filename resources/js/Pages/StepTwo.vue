@@ -135,7 +135,7 @@ export default {
         const childIsClicked = (child) => {
             category_id.child_id = child.id;
             activeChild.value = child.id;
-            showNotification.value = child.is_repairable ? true : false;
+            showNotification.value = child.is_repairable ? false : true;
             axios
                 .post("/set-category", category_id)
                 .then((res) => {
@@ -164,7 +164,7 @@ export default {
         const toggleChildren = (index, cat) => {
             activeParent.value = cat.id;
             category_id.parent_id = cat.id;
-            showNotification.value = cat.is_repairable ? true : false;
+            showNotification.value = cat.is_repairable ? false : true;
             childImages.value = parentImages.value[index].children;
 
             if (childImages.value.length) {
