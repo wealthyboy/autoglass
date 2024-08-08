@@ -42,6 +42,7 @@ class AppointmentsNotification extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
+                    ->bcc('info@autoglass.ng')
                     ->greeting('Dear ' . $this->data['first_name'] . ' ' . $this->data['last_name'] . ',')
                     ->line('Thank you for choosing AutoglassNg for your auto glass replacement and repair services.')
                     ->line('We have successfully received your submission and will begin processing your request immediately.')
