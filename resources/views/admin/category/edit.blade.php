@@ -65,10 +65,10 @@
                <div class="row mt-3">
                   <div class="col-sm-12 col-12">
                      <div class="input-group input-group-outline">
-                        <label class="form-label mt-4 ms-0"> </label> {{$category}}
+                        <label class="form-label mt-4 ms-0"> </label>
                         <select class="form-control" name="is_repairable" id="">
-                           <option value=""  {{ $category->is_repaiarable == 0 ? 'selected' : '' }}>--Is repairable--</option>
-                           <option  {{ $category->is_repaiarable == 1 ? 'selected' : '' }}  value="1">Yes</option>
+                           <option value=""  {{ $cat->is_repaiarable == 0 ? 'selected' : '' }}>--Is repairable--</option>
+                           <option  {{ $cat->is_repaiarable == 1 ? 'selected' : '' }}  value="1">Yes</option>
                         </select>
                      </div>
                   </div>
