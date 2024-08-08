@@ -89,7 +89,6 @@
                 >
                 <textarea
                     id="note"
-                    :error="v$.note"
                     v-model="form.comment"
                     name="Note"
                     class="form-control"
