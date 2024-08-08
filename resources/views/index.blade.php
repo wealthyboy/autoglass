@@ -65,7 +65,7 @@
 						<div class="col-10 col-md-9 col-lg-6 ps-lg-5 pe-5 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="1450" data-plugin-options="{'accY': -200}">
 							<div class="position-relative">
 								<div data-plugin-float-element data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
-									<img src="/images/banners/repair_glass_autoglassng.jpgsd" class="img-fluid" alt="" />
+									<img src="/images/banners/repair_glass_autoglassng.jpg" class="img-fluid rounded-custom" alt="" />
 								</div>
 								
 							</div>
