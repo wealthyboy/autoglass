@@ -145,7 +145,7 @@ export default {
                         "catState",
                         JSON.stringify({
                             parent_id: category_id.parent_id,
-                            child_id: id,
+                            child_id: child.id,
                         })
                     );
 
