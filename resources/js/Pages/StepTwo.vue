@@ -135,7 +135,7 @@ export default {
         const childIsClicked = (child) => {
             category_id.child_id = child.id;
             activeChild.value = child.id;
-            showNotification.value = cat.is_repairable;
+            showNotification.value = child.is_repairable;
             axios
                 .post("/set-category", category_id)
                 .then((res) => {

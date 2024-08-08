@@ -93,12 +93,12 @@ class CategoryController extends Table
        // $slug = $this->makeSlug($request->parent_id, $request->name);
         $category = new Category;
         $category->name = $request->name;
-       // $category->image_custom_link = $request->image_custom_link;
-       // $category->link = $request->link;
-       // $category->banner_image = $request->banner_image;
+        //$category->image_custom_link = $request->image_custom_link;
+        //$category->link = $request->link;
+        //$category->banner_image = $request->banner_image;
         $category->image = $request->image;
-       // $category->meta_description = $request->meta_description;
-//        $category->title = $request->meta_title;
+        //$category->meta_description = $request->meta_description;
+        //$category->title = $request->meta_title;
         $category->slug = Str::slug($request->name);
         $category->sort_order = $request->sort_order;
         $category->is_repairable = $request->is_repairable || 0;
