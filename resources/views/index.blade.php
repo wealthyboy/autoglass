@@ -40,7 +40,7 @@
 				<div class="container my-5 pt-md-4 pt-xl-0">
 					<div class="row align-items-center justify-content-center pb-4 mb-5">
 						 <!-- First column that should appear first on mobile -->
-						<div class="col-10 col-md-9 col-lg-6 ps-lg-5 order-1 order-md-2 appear-animation"
+						<div class="col-12 col-md-9 col-lg-6 ps-lg-5 order-1 order-md-2 appear-animation"
 							data-appear-animation="fadeInRightShorterPlus"
 							data-appear-animation-delay="1450"
 							data-plugin-options="{'accY': -200}">
