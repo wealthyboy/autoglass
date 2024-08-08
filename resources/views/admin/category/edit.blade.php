@@ -66,7 +66,7 @@
                   <div class="col-sm-12 col-12">
                      <div class="input-group input-group-outline">
                         <label class="form-label mt-4 ms-0"> </label>
-                        <select class="form-control" name="is_repairable" id="">
+                        <select class="form-control" name="is_repairable" > {{ $cat  }}
                            <option value=""  {{ $cat->is_repaiarable === 0 ? 'selected' : '' }}>--Is repairable--</option>
                            <option value="1"  {{ $cat->is_repaiarable === 1 ? 'selected' : '' }}>Yes</option>
                         </select>
