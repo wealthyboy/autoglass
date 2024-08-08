@@ -19,10 +19,10 @@
 
 
         <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="/images/favicon_io/favicon-32x32.png">
-        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon_io/favicon.ico">
-        <link rel="icon" href="/images/favicon_io/favicon.ico" type="image/x-icon">
-        <link rel="apple-touch-icon" href="/images/favicon_io/favicon-96x96.png">
+        <link rel="icon" type="image/x-icon" href="/img/favicon-32x32.png">
+        <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+        <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="/img/favicon-96x96.png">
         <!-- Main CSS File -->
  
         
