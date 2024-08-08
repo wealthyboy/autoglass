@@ -147,7 +147,6 @@ class CategoryController extends Table
        // User::canTakeAction(User::canUpdate);
         $cat = Category::find($id);
         $categories = Category::parents()->get();
-        dd($categories);
         return view('admin.category.edit', compact('cat', 'categories'));
     }
 
