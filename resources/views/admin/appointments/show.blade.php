@@ -21,6 +21,8 @@
                         <li><b>Make:</b> {{$appointment->make}}</li>
                         <li><b>Model:</b> {{$appointment->model}}</li>
                         <li><b>Year:</b> {{$appointment->year}}</li>
+                        <li><b>Comment:</b> {{$appointment->comment}}</li>
+
                     </ul>
                 </div>
             </div>
