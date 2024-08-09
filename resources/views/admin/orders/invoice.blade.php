@@ -309,10 +309,9 @@
 
       <div></div>
       <div class="notice">
-        We hope that you enjoy your order</br>
+        Thanks for choosing AutoglassNg</br>
         Should you need any sort of further assistance, we are always ready to assist.</br>
-        You can reach us by phone at 09081155504, 09081155505 or by email at care@autoglass.ng</br>
-        Items must be returned within 5 working days after delivery.
+        You can reach us by phone at  07040333495, 09081155505 or by email at info@autoglass.ng.</br>
       </div>
     </div>
 
