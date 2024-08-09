@@ -179,6 +179,7 @@ class OrdersController extends Table
 					//->bcc('order@autoglass.com')
 					->send(new OrderReceipt($order, null, null, $sub_total));
 			} catch (\Throwable $th) {
+				dd($th->getMessage());
 				Log::info("Mail error :" . $th);
 				Log::info("Custom error :" . $th);
 				// $err = new Error();
