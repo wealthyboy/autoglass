@@ -95,6 +95,7 @@ class OrdersController extends Table
 			$input['user_id'] = null !== $user ? $user->id : null;
 			$input['status'] = "Confirmed";
 			$order = new Order;
+
 			$order->fill($input);
 			$order->save();
 			// foreach (Order::$statuses as $key => $status) {
