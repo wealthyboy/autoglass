@@ -40,12 +40,14 @@ class AppointmentsController extends Controller
             'phone_number' => 'required|string|max:20',
             'email' => 'required|email|max:255',
         ]);
+
         $validated['category_id']= session('child_id');
         $validated['parent_id']= session('parent_id');
         $validated['child_id']= session('child_id');
         $validated['make'] = session('make');
         $validated['model'] = session('model');
         $validated['year'] = session('year');
+        $validated['comment'] = $request->comment;
 
         $appointment = Appointment::create($validated);
 
