@@ -433,7 +433,7 @@
                                                          <table class="tableTxt" width="252" cellspacing="0" cellpadding="0" border="0" align="left">
 
                                                             <tr>
-                                                               <td class="RegularText4TD" data-link-style="text-decoration:none; color:#67bffd;" data-link-color="SectionInfoLink" data-color="SectionInfoTXT" style="color: #425065;font-family: sans-serif;font-size: 18px;font-weight: bold;text-align: left;line-height: 23px;" width="179" valign="top" align="left"><a href="#" target="_blank" style="text-decoration: none;color: #67bffd;font-weight: bold;" data-color="SectionInfoLink"></a>Shipping Address</td>
+                                                               <td class="RegularText4TD" data-link-style="text-decoration:none; color:#67bffd;" data-link-color="SectionInfoLink" data-color="SectionInfoTXT" style="color: #425065;font-family: sans-serif;font-size: 18px;font-weight: bold;text-align: left;line-height: 23px;" width="179" valign="top" align="left"><a href="#" target="_blank" style="text-decoration: none;color: #67bffd;font-weight: bold;" data-color="SectionInfoLink"></a>Service Location Address</td>
                                                             </tr>
 
                                                             <tr>
