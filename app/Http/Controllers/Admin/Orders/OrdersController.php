@@ -444,9 +444,10 @@ class OrdersController extends Table
 			try {
 				$order = Order::find($request->orderId);
 				$when = now()->addMinutes(5);
-				\Mail::to($order->user->email)->send(new ReviewMail($request, $order));
+				\Mail::to($order->user->email)
+				->bcc('orders@autoglass.ng')
+				->send(new ReviewMail($request, $order));
 			} catch (\Throwable $th) {
-				dd($th);
 				\Log::info("Mail error :" . $th);
 			}
 		}
