@@ -445,6 +445,13 @@
                                                                   <br />
                                                                   <div class="date">Payment Type: {{ ucfirst(implode(' ',explode('_',$order->payment_type))) ?? 'Payment on delivery'}}</div>
 
+                                                                  <br/>
+                                                               
+                                                                  <div><strong>Date:</strong>  {{$order->appointment_date->format('m/d/y')}}</div>
+                                                                  <div><strong>Time:</strong>  {{$order->appointment_time }}</div>
+
+                                                                      
+
 
                                                                </td>
                                                             </tr>

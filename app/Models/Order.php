@@ -20,6 +20,14 @@ class Order extends Model
 
 	public $appends = ['ship_price'];
 
+
+	public $casts = ['appointment_date']
+
+	protected $casts = [
+        'appointment_date' => 'datetime',
+    ];
+
+
 	public static $statuses = [
 		"Confirmed" => "Confirmed",
 		"Cancelled" => "Cancelled",

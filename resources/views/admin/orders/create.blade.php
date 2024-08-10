@@ -90,6 +90,31 @@
                 
                </div>
 
+               <div class="row mt-3">
+                  <div class="col-sm-4 col-12">
+                     <div class="input-group input-group-outline">
+                        <select class="form-control" name="gmt" id="">
+                           <option value="AM">AM</option>
+                           <option value="PM">PM</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="col-sm-2 col-12">
+                     <div class="input-group input-group-outline ne">
+                        <label class="form-label"> Time</label>
+                        <input type="text" class="form-control "  name="appointment_time">
+                     </div>
+                  </div>
+
+                  <div class="col-sm-4 col-12">
+                     <div class="input-group input-group-outline">
+                        <label class="form-label"> Appoint Date</label>
+                        <input type="date" class="form-control" name="appointment_date">
+                     </div>
+                  </div>
+
+               </div>
+
 
 
                <hr class="horizontal dark">

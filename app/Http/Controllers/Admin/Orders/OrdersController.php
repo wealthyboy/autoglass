@@ -22,6 +22,7 @@ use App\Models\Setting;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
+use Carbon\Carbon;
 
 class OrdersController extends Table
 {
@@ -93,6 +94,10 @@ class OrdersController extends Table
 			$input['invoice'] = substr(rand(100000, time()), 0, 7);
 			$input['order_type'] = "Offline";
 			$input['user_id'] = null !== $user ? $user->id : null;
+			$input['appointment_time'] = $request->appointment_time .''.$request->gmt;
+			$input['appointment_date'] = Carbon::createFromDate($request->appointment_date);
+
+
 			$input['status'] = "Confirmed";
 			$order = new Order;
 
