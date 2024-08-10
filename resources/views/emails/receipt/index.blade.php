@@ -440,7 +440,7 @@
                                                                <td colspan="3" class="RegularTextTD" data-link-style="text-decoration:none; color:#67bffd;" data-link-color="RegularLink" data-color="RegularTXT" style="margin-left: 3px;color: #727e8d;font-family: sans-serif;font-size: 13px;font-weight: lighter;line-height: 23px;">
                                                                   {{ ucfirst($order->first_name) }} {{ ucfirst($order->last_name) }} <br />
                                                                   {{ $order->address }}<br /> {{ $order->city }}
-                                                                 
+             
                                                                   <br />Phone number: {{ $order->phone_number }}&nbsp;
                                                                   <br />
                                                                   <div class="date">Payment Type: {{ ucfirst(implode(' ',explode('_',$order->payment_type))) ?? 'Payment on delivery'}}</div>

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>AUTOFACTOR</title>
+  <title>AUTOGLASS</title>
   <link rel="stylesheet" href="style.css" media="all" />
 </head>
 <style>
@@ -264,15 +264,13 @@
         <?php foreach ($order->ordered_products as $ordered_product) { ?>
 
           <tr>
-
-
             <td class="desc">
               <h3>{{ $ordered_product->product_name }}</h3>
             </td>
             <td class="desc">{{ $order->currency }}₦{{ number_format( $ordered_product->price) }}</td>
             <td class="qty ">{{ $ordered_product->quantity }}</td>
             <td class="desc"></td>
-            <td class="desc text-center">{{ $order->currency }}₦{{ number_format( $ordered_product->price *  $ordered_product->quantity) }}</td>
+            <td class="desc text-center">{{ $order->currency }}₦{{ number_format( $ordered_product->price * $ordered_product->quantity) }}</td>
 
           </tr>
 
