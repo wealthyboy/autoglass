@@ -20,9 +20,6 @@ class Order extends Model
 
 	public $appends = ['ship_price'];
 
-
-	public $casts = ['appointment_date']
-
 	protected $casts = [
         'appointment_date' => 'datetime',
     ];
