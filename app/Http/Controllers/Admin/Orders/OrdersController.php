@@ -182,7 +182,7 @@ class OrdersController extends Table
 				$when = now()->addMinutes(5);
 				$order->full_name = $request->first_name;
 				Mail::to($request->email)
-					->bcc('info@autoglass.com')
+					->bcc('orders@autoglass.com')
 					->send(new OrderReceipt($order, null, null, $sub_total));
 			} catch (\Throwable $th) {
 				dd($th->getMessage());
