@@ -100,7 +100,7 @@
                      </div>
                   </div>
                   <div class="col-sm-2 col-12">
-                     <div class="input-group input-group-outline ne">
+                     <div class="input-group input-group-outline ne focused is-focused">
                         <label class="form-label"> Time</label>
                         <input type="text" class="form-control " placeholder="8:00"  name="appointment_time">
                      </div>
