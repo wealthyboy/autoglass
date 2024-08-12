@@ -102,7 +102,7 @@
                   <div class="col-sm-2 col-12">
                      <div class="input-group input-group-outline ne">
                         <label class="form-label"> Time</label>
-                        <input type="text" class="form-control "  name="appointment_time">
+                        <input type="text" class="form-control " placeholder="8:00"  name="appointment_time">
                      </div>
                   </div>
 
