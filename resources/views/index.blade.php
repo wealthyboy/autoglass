@@ -45,7 +45,7 @@
 							data-appear-animation-delay="1450"
 							data-plugin-options="{'accY': -200}">
 						<div class="position-relative">
-							<div data-plugin-float-element
+							<div class="image-container" data-plugin-float-element
 								data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
 							<img src="/images/banners/repair_glass_autoglassng.jpg" class="img-fluid rounded mb-3 " alt="" />
 							</div>
