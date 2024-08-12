@@ -76,7 +76,7 @@
         </div>
 
 
-        <footer id="footer"  class=" mt-0 bg-g  w-100 shadow-sm text-center ">
+        <footer id="footer"  style="background-color: #333333;" class="  mt-3 bg-g  w-100 shadow-sm text-center ">
             <div class="container">
                 <div class="row ">
                     @foreach($footer_children as $info)
