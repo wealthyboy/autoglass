@@ -447,8 +447,8 @@
 
                                                                   <br/>
                                                                
-                                                                  <div><strong>Date:</strong>  {{$order->appointment_date->format('m/d/y')}}</div>
-                                                                  <div><strong>Time:</strong>  {{$order->appointment_time }}</div>
+                                                                  <div><strong> Appointment Date:</strong>  {{$order->appointment_date->format('m/d/y')}}</div>
+                                                                  <div><strong>Appointment Time:</strong>  {{$order->appointment_time }}</div>
 
                                                                       
 
