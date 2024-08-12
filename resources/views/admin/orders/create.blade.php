@@ -107,7 +107,7 @@
                   </div>
 
                   <div class="col-sm-4 col-12">
-                     <div class="input-group input-group-outline">
+                     <div class="input-group input-group-outline focused is-focused">
                         <label class="form-label"> Appoint Date</label>
                         <input type="date" class="form-control" name="appointment_date">
                      </div>
