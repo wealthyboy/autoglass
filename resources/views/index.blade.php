@@ -6,21 +6,20 @@
 @section('content')
 
 <section class="section custom-section-background position-relative border-0 overflow-hidden m-0 p-0">
-					<div class="position-absolute top-0 left-0 right-0 bottom-0 " style="animation-delay: 600ms;">
-						<div class="background-image-wrapper custom-background-style-1 position-absolute top-0 left-0 right-0 bottom-0  kenBurnsToRight" style="background-image: url(/images/banners/i3.jpg); background-repeat: no-repeat; background-position: center right; animation-duration: 30s;"></div>
+					<div class="position-absolute top-0 left-0 right-0 bottom-0 ">
+						<div class="background-image-wrapper custom-background-style-1 position-absolute top-0 left-0 right-0 bottom-0 " style="background-image: url(/images/banners/i3.jpg); background-repeat: no-repeat; background-position: center right;"></div>
 					</div>
 					<div class="container position-relative py-sm-5 my-5">
 						<svg class="custom-svg-1 d-none d-sm-block" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 649 578">
 							<path fill="#FFF" d="M-225.5,154.7l358.45,456.96c7.71,9.83,21.92,11.54,31.75,3.84l456.96-358.45c9.83-7.71,11.54-21.92,3.84-31.75
 								L267.05-231.66c-7.71-9.83-21.92-11.54-31.75-3.84l-456.96,358.45C-231.49,130.66-233.2,144.87-225.5,154.7z"/>
-							<path class="animated customLineAnim" fill="none" stroke="#1C5FA8" stroke-width="1.5" stroke-miterlimit="10" d="M416-21l202.27,292.91c5.42,7.85,3.63,18.59-4.05,24.25L198,603" style="animation-delay: 300ms; animation-duration: 5s;"/>
+							<path class="animated customLineAnim" fill="none" stroke="#1C5FA8" stroke-width="1.5" stroke-miterlimit="10" d="M416-21l202.27,292.91c5.42,7.85,3.63,18.59-4.05,24.25L198,603" style=""/>
 						</svg>
 						<div class="row mb-5 p-relative z-index-1">
 							<div class="col-md-8 col-lg-6 col-xl-5">
 								<div class="overflow-hidden mb-1">
 									<h2 class="font-weight-bold  text-color-dark text-8  mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="800">Book your Autoglass Replacement or Repairs Today!</h2>
 								</div>
-								<h2 class=" text-color-grey font-weight-bold text-4-5 pb-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1100">
                                     A damaged windscreen could result in failing your road worthiness test. Book your appointment with us today to avoid disappointment.
 								</h1>
 								<a href="/book-appointment" class="btn btn-primary custom-btn-border-radius custom-btn-arrow-effect-1 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">
