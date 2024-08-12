@@ -40,13 +40,10 @@
 				<div class="container my-5 pt-md-4 pt-xl-0">
 					<div class="row align-items-center justify-content-center pb-4 mb-5">
 						 <!-- First column that should appear first on mobile -->
-						<div class="col-12 col-md-9 col-lg-6 ps-lg-5 order-1 order-md-2 appear-animation"
-							data-appear-animation="fadeInRightShorterPlus"
-							data-appear-animation-delay="1450"
-							data-plugin-options="{'accY': -200}">
+						<div class="col-12 col-md-9 col-lg-6 ps-lg-5 order-1 order-md-2 "
+							>
 						<div class="position-relative">
-							<div class="image-container" data-plugin-float-element
-								data-plugin-options="{'startPos': 'top', 'speed': 0.2, 'transition': true, 'transitionDuration': 1000, 'isInsideSVG': true}">
+							<div class="image-container">
 							<img src="/images/banners/repair_glass_autoglassng.jpg" class="img-fluid rounded mb-3 " alt="" />
 							</div>
 						</div>
@@ -55,26 +52,21 @@
 						<!-- Second column that should appear second on mobile -->
 						<div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0 order-2 order-md-1">
 							<div class="overflow-hidden">
-								<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 appear-animation"
-									data-appear-animation="maskUp"
-									data-appear-animation-delay="300">5 Years of Top Experience</h2>
+								<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 "
+									>5 Years of Top Experience</h2>
 							</div>
 							<div class="custom-divider divider divider-primary divider-small my-3">
-								<hr class="my-0 appear-animation"
-									data-appear-animation="customLineProgressAnim"
-									data-appear-animation-delay="700">
+								<hr class="my-0 "
+									>
 							</div>
-						<p class="font-weight-light text-3-5 mb-4 appear-animation"
-							data-appear-animation="fadeInUpShorter"
-							data-appear-animation-delay="450">Over the past five years, We have dedicated ourselves to mastering the intricacies of the auto glass industry, gaining a wealth of experience that spans from hands-on technical skills to comprehensive business management.</p>
-						<p class="pb-1 mb-4 appear-animation"
-							data-appear-animation="fadeInUpShorter"
-							data-appear-animation-delay="700">Our journey in this field has been marked by continuous learning, excellence customer service, and adapting to technological advancements.</p>
+						<p class="font-weight-light text-3-5 mb-4 "
+							>Over the past five years, We have dedicated ourselves to mastering the intricacies of the auto glass industry, gaining a wealth of experience that spans from hands-on technical skills to comprehensive business management.</p>
+						<p class="pb-1 mb-4 "
+						>Our journey in this field has been marked by continuous learning, excellence customer service, and adapting to technological advancements.</p>
 						<div class="d-flex align-items-start align-items-sm-center flex-column flex-sm-row">
-							<a href="/pages/about-us" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 appear-animation"
-							data-appear-animation="fadeInRightShorterPlus"
-							data-appear-animation-delay="950">VIEW MORE</a>
-							<div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 appear-animation"
+							<a href="/pages/about-us" class="btn btn-primary custom-btn-border-radius font-weight-bold text-3 px-5 btn-py-3 me-sm-2 mb-3 mb-sm-0 "
+							>VIEW MORE</a>
+							<div class="feature-box align-items-center border border-top-0 border-end-0 border-bottom-0 custom-remove-mobile-xs-border-left ms-sm-4 ps-sm-4 "
 								data-appear-animation="fadeInRightShorterPlus"
 								data-appear-animation-delay="1200">
 							<div class="feature-box-icon bg-transparent">
@@ -98,7 +90,7 @@
 					<div class="row pb-2">
 						<div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
 							<a  class="text-decoration-none">
-								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="250" data-plugin-options="{'accY': -200}">
+								<div class="custom-icon-box-style-1 ">
 									<div class="custom-icon-style-1 mb-4">
 										<svg xmlns="http://www.w3.org/2000/svg"   width="40" height="40" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
 											<path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
@@ -111,7 +103,7 @@
 						</div>
 						<div class="col-lg-4 text-center px-lg-5 mb-5 mb-lg-0">
 							<a  class="text-decoration-none">
-								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="500" data-plugin-options="{'accY': -200}">
+								<div class="custom-icon-box-style-1 ">
 									<div class="custom-icon-style-1 mb-4">
 									<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
 											<path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
@@ -125,7 +117,7 @@
 						</div>
 						<div class="col-lg-4 text-center px-lg-5">
 							<a  class="text-decoration-none">
-								<div class="custom-icon-box-style-1 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="750" data-plugin-options="{'accY': -200}">
+								<div class="custom-icon-box-style-1 ">
 									<div class="custom-icon-style-1 mb-4">
 									    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-people-fill" viewBox="0 0 16 16">
 										  <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
