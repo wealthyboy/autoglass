@@ -6,8 +6,8 @@
 @section('content')
 
 <section class="section custom-section-background position-relative border-0 overflow-hidden m-0 p-0">
-					<div class="position-absolute top-0 left-0 right-0 bottom-0 animated fadeIn" style="animation-delay: 600ms;">
-						<div class="background-image-wrapper custom-background-style-1 position-absolute top-0 left-0 right-0 bottom-0 animated kenBurnsToRight" style="background-image: url(/images/banners/i3.jpg); background-position: center right; animation-duration: 30s;"></div>
+					<div class="position-absolute top-0 left-0 right-0 bottom-0 " style="animation-delay: 600ms;">
+						<div class="background-image-wrapper custom-background-style-1 position-absolute top-0 left-0 right-0 bottom-0  kenBurnsToRight" style="background-image: url(/images/banners/i3.jpg); background-repeat: no-repeat; background-position: center right; animation-duration: 30s;"></div>
 					</div>
 					<div class="container position-relative py-sm-5 my-5">
 						<svg class="custom-svg-1 d-none d-sm-block" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 649 578">
