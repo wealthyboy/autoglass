@@ -90,7 +90,7 @@
 					</div>
 				</div> -->
 			</div>
-			<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 54, 'stickySetTop': '-54px', 'stickyChangeLogo': false}">
+			<header class="border-bottom" id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAt': 54, 'stickySetTop': '-54px', 'stickyChangeLogo': false}">
 				<div class="header-body header-body-bottom-border-fixed box-shadow-none border-top-0">
 					<div class="header-top header-top-small-minheight header-top-simple-border-bottom">
 						<div class="container py-2">
