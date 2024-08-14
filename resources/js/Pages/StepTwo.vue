@@ -79,9 +79,7 @@
                 v-if="showNotification"
                 class="alert alert-info font-weight-bold"
             >
-                NB: Only Front windshield is repairable, We can definitely
-                REPLACE your damaged window at AFFORDABLE cost, Click NEXT to
-                get a quote’
+                NB: Please rephrase this to. Only a chipped front windshield is repairable, We can definitely REPLACE your damaged window at AFFORDABLE cost, Click NEXT to get a quote.
             </div>
         </div>
     </div>
