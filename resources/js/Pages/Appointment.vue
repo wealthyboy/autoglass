@@ -191,6 +191,6 @@ li.nav-item.timeline-step.border.bg-light.active a {
 }
 
 .full-height {
-    height: 60vh; /* Full viewport height */
+    height: 40vh; /* Full viewport height */
 }
 </style>

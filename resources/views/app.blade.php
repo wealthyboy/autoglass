@@ -49,8 +49,8 @@
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
     </head>
-    <body class="font-sans antialiased">
-        <header class="  ">
+    <body class="font-sans bg-grey antialiased">
+        <header class=" bg-white ">
             <nav class="navbar navbar-expand-md fixed-to">
                 <div class="container-fluid p-3">
                     <a class="navbar-brand" href="/">
