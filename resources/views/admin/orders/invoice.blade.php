@@ -309,7 +309,7 @@
       <div class="notice">
         Thanks for choosing AutoglassNg</br>
         Should you need any sort of further assistance, we are always ready to assist.</br>
-        You can reach us by phone at  07040333495, 09081155505 or by email at info@autoglass.ng.</br>
+        You can reach us by phone at  07040333495 or by email at info@autoglass.ng.</br>
       </div>
     </div>
 

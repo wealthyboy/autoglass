@@ -48,6 +48,10 @@
         @routes
         @vite(['resources/js/app.js', "resources/js/Pages/{$page['component']}.vue"])
         @inertiaHead
+
+        <style>
+           
+        </style>
     </head>
     <body class="font-sans bg-grey antialiased">
         <header class=" bg-white ">
@@ -69,9 +73,8 @@
             </nav>
         </header>
 
-        <div class="main  bg-grey">
+        <div id="page-conten" style="height: 90vh;; overflow:scroll;" class="main  bg-grey">
            @inertia
-           <div class="bg-grey" style="height: 200px;"></div>
         </div>
 
 
@@ -95,7 +98,7 @@
                 </div><!-- End .row -->
             </div>
         
-            <div id="footer2" class="foot text-black  ">
+            <div id="footer2" class="foot text-black   py-3 mt-auto ">
             
                 <div class="container">
                     <div class="row">
@@ -112,4 +115,18 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script>
+         window.addEventListener("resize", adjustHeight);
+
+    function adjustHeight() {
+      const myDiv = document.getElementById('dh');
+      const isFullscreen = window.innerHeight === screen.height && window.innerWidth === screen.width;      
+      if (isFullscreen) {
+        myDiv.style.height = "200px";
+      } else {
+        myDiv.style.height = "250px";
+      }
+    }
+
+  </script>
 </html>

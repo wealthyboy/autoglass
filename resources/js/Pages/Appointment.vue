@@ -3,6 +3,7 @@
         <div
             v-if="!isCompleted"
             class="d-flex justify-content-cente align-items-cente"
+            
         >
             <div class="container mt-3 mb-3">
                 <div class="row justify-content-center">
