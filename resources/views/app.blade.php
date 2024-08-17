@@ -73,8 +73,9 @@
             </nav>
         </header>
 
-        <div id="page-conten" style="height: 90vh;; overflow:scroll;" class="main  bg-grey">
+        <div id="page-content" class="main  bg-grey">
            @inertia
+           <div class="bg-grey" id="dh" style="height: 140px;"></div>
         </div>
 
 

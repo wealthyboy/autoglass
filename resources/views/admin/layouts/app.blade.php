@@ -158,6 +158,18 @@
                <span class="nav-link-text ms-2 ps-1"> Settings </span>
                </a>
             </li>
+            
+            <li class="nav-item">
+               <a onclick="event.preventDefault();
+                      document.getElementById('logout-form').submit();" class="nav-link text-white  $helper->active_link(['maintainance']) }}" href="{{ route('maintainance') }}">
+                  <i class="material-symbols-outlined">power_settings_new</i>
+                  <span class="nav-link-text ms-2 ps-1"> Logout</span>
+               </a>
+               <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                  @csrf
+               </form>
+            </li>
+            
 
            
 
