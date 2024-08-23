@@ -12,7 +12,7 @@
 	
 	<div class="container position-relative py-sm-5 my-lg-5">
 		<div class="d-block d-md-none mb-3  position-relative  right-77">
-		    <img src="/images/banners/mobeil_banner_autoglass.jpg" alt="autoglass">
+		    <img src="/images/banners/mobeil_banner_autoglass.jpg" title="fix your glass in nigeria" alt="autoglass ">
 	   </div>
 
 		<svg class="custom-svg-1 d-none d-sm-block" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 649 578">
