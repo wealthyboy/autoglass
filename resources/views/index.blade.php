@@ -10,7 +10,7 @@
 		<div class="background-image-wrapper custom-background-style-1 position-absolute top-0 left-0 right-0 bottom-0 " style="background-image: url(/images/banners/i3.jpg); background-repeat: no-repeat; background-size: cover;"></div>
 	</div>
 	
-	<div class="container position-relative py-sm-5">
+	<div class="container position-relative py-sm-5 my-lg-5">
 		<div class="d-block d-md-none mb-3  position-relative  right-77">
 		    <img src="/images/banners/mobeil_banner_autoglass.jpg" alt="autoglass">
 	   </div>
