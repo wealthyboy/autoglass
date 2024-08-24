@@ -55,8 +55,8 @@
 				<!-- Second column that should appear second on mobile -->
 				<div class="col-lg-6 pb-sm-4 pb-lg-0 mb-5 mb-lg-0 order-2 order-md-1">
 					<div class="overflow-hidden">
-						<h2 class="font-weight-bold text-color-dark line-height-1 mb-0 "
-							>5 Years of Top Experience</h2>
+						<h1 class="font-weight-bold text-color-dark line-height-1 mb-0 "
+							>5 Years of Top Experience</h1>
 					</div>
 					<div class="custom-divider divider divider-primary divider-small my-3">
 						<hr class="my-0 "
@@ -113,7 +113,7 @@
 									<path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
 							</svg>
 							</div>
-							<h3 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-xl-5 my-2 mx-4">Quality</h3>
+							<h2 class="text-transform-none font-weight-bold text-color-dark line-height-3 text-4-5 px-xl-5 my-2 mx-4">Quality</h2>
 							<p>We only use premium materials such as OEM or its Equivalent and Advanced Adhesives to ensure Durability and Fit.</p>
 						</div>
 					</a>
