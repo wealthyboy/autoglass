@@ -46,7 +46,7 @@
             <div class="mt-3" v-if="showChildren && childImages.length">
                 <h4 class="ne-selected font-weight-bold">
                     <img src="/images/utils/tick-black-20.png" />
-                    Identify type of damage
+                    Select type of damage
                 </h4>
                 <div class="d-flex">
                     <div
