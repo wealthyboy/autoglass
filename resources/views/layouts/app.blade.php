@@ -262,7 +262,6 @@
         <script src="/js/star-rating.min.js"></script>	
         <script src="/js/theme.min.js"></script>
 		<script src="/js/theme.js"></script>
-		<script src="/js/demos/demo-auto-services.js"></script>
 		<script src="/js/theme.init.js"></script>
 	
 
