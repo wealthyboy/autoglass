@@ -6,7 +6,7 @@
 
 <section class="section custom-section-background position-relative border-bottom border-0 overflow-hidden m-0 p-0">
 	<div class="position-absolute top-0 left-0 right-0 bottom-0 ">
-		<div class="background-image-wrapper custom-background-style-1 position-absolute top-0 left-0 right-0 bottom-0 " style="background-image: url(/images/banners/i3.jpg); background-repeat: no-repeat; background-size: cover;"></div>
+		<div class="background-image-wrapper custom-background-style-1 position-absolute top-0 left-0 right-0 bottom-0  main-banner"></div>
 	</div>
 	
 	<div class="container position-relative py-sm-5 my-lg-5">
