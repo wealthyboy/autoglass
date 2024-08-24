@@ -34,8 +34,8 @@
         <meta property="og:image:width" content="720" />
         <meta property="og:image:height" content="700" />
         <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image" content="{{ isset($seo['image']) ? $seo['image'] : 'https://autoglass.ng/images/logo/autofactor_logo.png' }}" />
-        <meta name="twitter:site" content="@autofactorng">
+        <meta property="og:image" content="{{ isset($seo['image']) ? $seo['image'] : 'https://autoglass.ng/images/logo/Autoglass_logo2.png' }}" />
+        <meta name="twitter:site" content="@autoglassng">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="{{ isset($seo['title']) ? $seo['title'] : optional( $system_settings)->meta_title }}">
         <meta name="twitter:description" content="{{ isset($seo['page_meta_description']) ? $seo['page_meta_description'] : optional($system_settings)->meta_description }}">

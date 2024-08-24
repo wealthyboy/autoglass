@@ -17,7 +17,7 @@
 
         <h4 class="ne-selected font-weight-bold">
             <img src="/images/utils/tick-black-20.png" />
-            Please tell us which window is damaged
+            Please select  which window is damaged
         </h4>
 
         <div class="row">
