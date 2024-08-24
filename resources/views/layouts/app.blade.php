@@ -258,12 +258,10 @@
 				
 
 		<!-- Vendor -->		
-         <script data-cfasync="false" src="/js/email-decode.min.js"></script>
         <script src="/js/plugins.min.js"></script>	
         <script src="/js/star-rating.min.js"></script>	
         <script src="/js/theme.min.js"></script>
 		<script src="/js/theme.js"></script>
-		<script src="/js/views/view.shop.js"></script>
 		<script src="/js/demos/demo-auto-services.js"></script>
 		<script src="/js/theme.init.js"></script>
 	
