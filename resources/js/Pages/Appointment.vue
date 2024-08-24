@@ -115,8 +115,8 @@ export default {
         const isCompleted = ref(false);
 
         const steps = [
-            { title: "Tell us about the damage", component: StepOne },
-            { title: "Your replacement glass", component: StepTwo },
+            { title: "Select your vehicle", component: StepOne },
+            { title: "Tell us about the damage", component: StepTwo },
             { title: "Your details", component: StepThree },
         ];
 
