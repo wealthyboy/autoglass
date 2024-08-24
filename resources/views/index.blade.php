@@ -47,7 +47,7 @@
 					>
 				<div class="position-relative">
 					<div class="image-container">
-					<img src="/images/banners/repair_glass_autoglassng.jpg" class="img-fluid rounded mb-3 " alt="" />
+					<img src="/images/banners/repair_glass_autoglassng.jpg" class="img-fluid rounded mb-3 " alt="autoglass repair glass nigeria" />
 					</div>
 				</div>
 				</div>
