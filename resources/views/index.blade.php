@@ -4,6 +4,39 @@
 
 @section('content')
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "headline": "Book your Autoglass Replacement or Repairs Today!",
+  "description": "A damaged windscreen could result in failing your road worthiness test. Book your appointment with us today to avoid disappointment.",
+  "url": "{{ url()->current() }}",
+  "image": [
+    "{{ asset('/images/banners/mobeil_banner_autoglass.jpg') }}",
+    "{{ asset('/images/banners/repair_glass_autoglassng.jpg') }}"
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Autoglass",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://autoglass.ng/images/logo/Autoglass_logo2.png",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ url()->current() }}"
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ url('/book-appointment') }}?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+
 <section class="section custom-section-background position-relative border-bottom border-0 overflow-hidden m-0 p-0">
 	<div class="position-absolute top-0 left-0 right-0 bottom-0 ">
 		<div class="background-image-wrapper custom-background-style-1 position-absolute top-0 left-0 right-0 bottom-0  main-banner"></div>
