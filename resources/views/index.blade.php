@@ -57,14 +57,20 @@
 				<div class="overflow-hidden mb-1">
 					<h2 class="font-weight-bold  text-color-dark text-8  mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="800">Book your Autoglass Replacement or Repairs Today!</h2>
 				</div>
-					A damaged windscreen could result in failing your road worthiness test. Book your appointment with us today to avoid disappointment.
-				</h1>
+
+				<div>
+				    A damaged windscreen could result in failing your road worthiness test. Book your appointment with us today to avoid disappointment.
+				</div>
+				<div class="col-12">
+
+				
 				<a href="/book-appointment" class="btn btn-primary custom-btn-border-radius custom-btn-arrow-effect-1 font-weight-bold text-3 px-5 btn-py-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1300">
 					GET STARTED 
 					<svg class="ms-2" version="1.1" viewBox="0 0 15.698 8.706" width="17" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 						<polygon stroke="#FFF" stroke-width="0.1" fill="#FFF" points="11.354,0 10.646,0.706 13.786,3.853 0,3.853 0,4.853 13.786,4.853 10.646,8 11.354,8.706 15.698,4.353 "/>
 					</svg>
 				</a>
+				</div>
 			</div>
 		</div>
 	</div>
