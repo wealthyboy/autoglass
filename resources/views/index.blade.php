@@ -58,7 +58,7 @@
 					<h2 class="font-weight-bold  text-color-dark text-8  mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="800">Book your Autoglass Replacement or Repairs Today!</h2>
 				</div>
 
-				<div>
+				<div class="mb-3">
 				    A damaged windscreen could result in failing your road worthiness test. Book your appointment with us today to avoid disappointment.
 				</div>
 				<div class="col-12">
