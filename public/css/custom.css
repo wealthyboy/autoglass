@@ -20,6 +20,11 @@
     background-image: url('/images/banners/i3.jpg'); background-repeat: no-repeat; background-size: cover;
 }
 
+.mobile-banner{
+    height: 343px;
+    overflow: hidden;
+}
+
  /* .image-container {
     height: 100%; 
     position: relative;

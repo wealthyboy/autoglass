@@ -43,7 +43,7 @@
 	</div>
 	
 	<div class="container position-relative py-sm-5 my-lg-5">
-		<div class="d-block d-md-none mb-3  position-relative  ">
+		<div class="d-block d-md-none mb-3  position-relative  mobile-banner">
 		    <img src="/images/banners/mobeil_banner_autoglass.jpg" title="fix your glass in nigeria" class="img-fluid" alt="autoglass ">
 	   </div>
 
