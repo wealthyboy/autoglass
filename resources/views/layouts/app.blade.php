@@ -244,7 +244,7 @@
 	</div>
 
 	<div class="watsapp me-3">
-		<a class="chat-on-watsapp d-flex justify-content-between align-items-center" rel="noopener" target="_blank" rel="noreferrer" href="https://wa.me/+23407040333495">
+		<a class="chat-on-watsapp d-flex justify-content-between align-items-center" rel="noopener" target="_blank" rel="noreferrer" href="https://api.whatsapp.com/send?phone=2347040333495&text=Hello+I%E2%80%99m+contacting+you+from+your+Website">
 			<span class="d-flex flex-column me-2">
 				<span class="text-black text-0">Need Help?</span>
 				<span class="text-black  text-1">Chat with us</span>
